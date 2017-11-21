@@ -1,0 +1,76 @@
+/*************************
+ * name: Michal Bilitzky
+ * id:205419849
+ *************************/
+#include "Game.h"
+
+Game::Game(Board &board):board(&board){
+
+};
+
+
+void Game::run() {
+    Steps steps(*this->board);
+    Player player(*this->board, steps);
+    char x = 'x';
+    char o = 'o';
+    bool choice;
+    Piece piece(0, 0);
+    board->printBoard();
+    while(player.checkHaveMove(steps.getVec())== true) {
+        int flag=0;
+        player.printWhoQueue(x);
+        steps.optionsToLocate(x);
+        int ans = steps.printOptions();
+        if (ans == 1) {
+            piece = player.chosenMove();
+            choice= player.checkInput(piece,steps.getVec());
+            while (!choice) {
+                cout<<"Your choice is'n an options.Choose move from the list."<<endl;
+                steps.printOptions();
+                piece = player.chosenMove();
+                choice=player.checkInput(piece,steps.getVec());
+            }
+            steps.pieceToFlip(piece, x);
+            board->printBoard();
+            steps.clearVec();
+
+        }
+        else{
+            cout<<"No possible moves."<<endl;
+            flag++;
+        }
+        player.printWhoQueue(o);
+        steps.optionsToLocate(o);
+        int ans2 = steps.printOptions();
+        if (ans2 == 1) {
+            piece =player.chosenMove();
+            choice= player.checkInput(piece,steps.getVec());
+            while (!choice) {
+                cout<<"Your choice is'n an options.Choose move from the list."<<endl;
+                steps.printOptions();
+                piece = player.chosenMove();
+                choice= player.checkInput(piece,steps.getVec());
+
+            }
+            steps.pieceToFlip(piece, o);
+            board->printBoard();
+            steps.clearVec();
+        }
+        else{
+            cout<<"No possible moves."<<endl;
+            flag++;
+            if(flag==2) {
+                player.winner();
+                return ;
+            }
+
+        }
+    }
+    cout << "x your score is: " << player.countX() << endl;
+    cout << "o your score is: " << player.countO() << endl;
+    cout << endl;
+    player.winner();
+
+}
+
