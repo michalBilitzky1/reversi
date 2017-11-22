@@ -12,8 +12,6 @@ Game::Game(Board &board):board(&board){
 void Game::run() {
     Steps steps(*this->board);
     Player player(*this->board, steps);
-    char x = 'x';
-    char o = 'o';
     bool choice;
     Piece piece(0, 0);
     board->printBoard();
