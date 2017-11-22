@@ -21,6 +21,7 @@ public:
 
     void checkMoveComputer();
     int grade();
+    vector<int> checkMoveHuman();
 };
 
 
