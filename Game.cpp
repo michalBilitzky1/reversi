@@ -10,9 +10,11 @@ Game::Game(Board &board):board(&board){
 
 
 void Game::run() {
+
     Steps steps(*this->board);
     Player player(*this->board, steps);
     bool choice;
+    //ComputerBoard computerBoard(*this->board,steps,player);
     Piece piece(0, 0);
     board->printBoard();
     while(player.checkHaveMove(steps.getVec())== true) {

@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ex2.dir/Steps.cpp.o"
   "CMakeFiles/ex2.dir/Player.cpp.o"
   "CMakeFiles/ex2.dir/Game.cpp.o"
+  "CMakeFiles/ex2.dir/ComputerBoard.cpp.o"
   "ex2.pdb"
   "ex2"
 )

@@ -90,6 +90,12 @@
 		<Unit filename="/home/miri/CLionProjects/reversi/Board.h">
 			<Option target="ex2"/>
 		</Unit>
+		<Unit filename="/home/miri/CLionProjects/reversi/ComputerBoard.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/miri/CLionProjects/reversi/ComputerBoard.h">
+			<Option target="ex2"/>
+		</Unit>
 		<Unit filename="/home/miri/CLionProjects/reversi/Game.cpp">
 			<Option target="ex2"/>
 		</Unit>

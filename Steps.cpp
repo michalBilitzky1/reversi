@@ -175,7 +175,6 @@ void Steps::optionsToLocate(char player) {
 }
 
 
-
 int Steps::printOptions(){
     if(vec.empty()){
         return 0;

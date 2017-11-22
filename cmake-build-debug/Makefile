@@ -150,6 +150,33 @@ Board.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Board.cpp.s
 .PHONY : Board.cpp.s
 
+ComputerBoard.o: ComputerBoard.cpp.o
+
+.PHONY : ComputerBoard.o
+
+# target to build an object file
+ComputerBoard.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ComputerBoard.cpp.o
+.PHONY : ComputerBoard.cpp.o
+
+ComputerBoard.i: ComputerBoard.cpp.i
+
+.PHONY : ComputerBoard.i
+
+# target to preprocess a source file
+ComputerBoard.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ComputerBoard.cpp.i
+.PHONY : ComputerBoard.cpp.i
+
+ComputerBoard.s: ComputerBoard.cpp.s
+
+.PHONY : ComputerBoard.s
+
+# target to generate assembly for a file
+ComputerBoard.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ComputerBoard.cpp.s
+.PHONY : ComputerBoard.cpp.s
+
 Game.o: Game.cpp.o
 
 .PHONY : Game.o
@@ -297,6 +324,9 @@ help:
 	@echo "... Board.o"
 	@echo "... Board.i"
 	@echo "... Board.s"
+	@echo "... ComputerBoard.o"
+	@echo "... ComputerBoard.i"
+	@echo "... ComputerBoard.s"
 	@echo "... Game.o"
 	@echo "... Game.i"
 	@echo "... Game.s"
