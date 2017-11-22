@@ -55,7 +55,7 @@ bool Player::checkInput(Piece piece,vector<Piece> vec) {
 
 
 bool Player:: checkHaveMove(vector<Piece> vec){
-    if(countO()+countX()==(b->get_row())*(b->get_col())){
+    if(countO()+countX()==(b->getRowBoard())*(b->getColBoard())){
         return false;
     }
 
@@ -67,10 +67,10 @@ bool Player:: checkHaveMove(vector<Piece> vec){
 
 
 int Player::countX(){
-    char** board = b->get_board();
+    char** board = b->getBoard();
     int counter=0;
-    for(int i=1;i<=b->get_row();i++){
-        for(int j=1;j<=b->get_col();j++){
+    for(int i=1;i<= b->getRowBoard();i++){
+        for(int j=1;j<= b->getColBoard();j++){
             if(board[i][j]==player_x){
                 counter++;
             }
@@ -81,10 +81,10 @@ int Player::countX(){
 
 
 int Player::countO(){
-    char** board = b->get_board();
+    char** board = b->getBoard();
     int counter=0;
-    for(int i=1;i<=b->get_row();i++){
-        for(int j=1;j<=b->get_col();j++){
+    for(int i=1;i<= b->getRowBoard();i++){
+        for(int j=1;j<= b->getColBoard();j++){
             if(board[i][j]==player_o){
                 counter++;
             }

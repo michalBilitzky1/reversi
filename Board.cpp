@@ -58,15 +58,15 @@ void Board :: printBoard() {
 
 
 
-char** Board::get_board() {
+char** Board::getBoard() {
     return board;
 }
 
-int Board::get_row() {
+int Board::getRowBoard() {
     return this->row;
 }
 
-int Board::get_col() {
+int Board::getColBoard() {
     return this->col;
 }
 

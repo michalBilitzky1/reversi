@@ -12,7 +12,7 @@
 
 class Steps:public GameLogic {
 private:
-    Board* b;
+    Board* board;
     vector<Piece> vec;
     char player_o;
     char player_x;
@@ -64,16 +64,7 @@ public:
  * input:none
  * output:none
 **********************************/
-    void addX(Piece piece_to_add);
-/**********************************
- * @param piece_to_add
- * adds a x to the board according to
- * the given piece
- *
- * input:none
- * output:none
-***********************************/
-    void addO(Piece piece_to_add);
+    void addPiece(Piece piece_to_add, char player);
 /**********************************
  * @return vector of pieces
  *

@@ -45,7 +45,7 @@ public:
  * output: row
  **********************************/
 
-    int get_row();
+    int getRowBoard();
 
 /**********************************
  * return the number of cols.
@@ -53,14 +53,14 @@ public:
  * output: col
  **********************************/
 
-    int get_col();
+    int getColBoard();
 /**********************************
  * return the screen of the game.
  * input: none
  * output: board
 **********************************/
 
-    char** get_board();
+    char** getBoard();
 
 
 };

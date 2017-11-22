@@ -11,6 +11,7 @@ using namespace std;
 
 int main() {
     Board board;
-    Game game(board);
+    Board board2;
+    Game game(board,board2);
     game.run();
 }

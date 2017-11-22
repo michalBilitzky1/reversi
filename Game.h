@@ -13,7 +13,8 @@
 class Game {
 
 private:
-    Board* board;
+    Board* boardReal;
+    Board* boardImaginative;
 public:
 
 /**********************************
@@ -22,7 +23,7 @@ public:
        * input: none
        * output: none
 **********************************/
-    Game(Board &board);
+    Game(Board &boardReal,Board &boardImaginative);
     // ~Game();
 /**********************************
  * run the game.
