@@ -4,19 +4,20 @@
  *************************/
 #include "Game.h"
 
-Game::Game(Board &board):board(&board){
+Game::Game(Board &boardReal,Board &boardImaginative):boardReal(&boardReal),boardImaginative(&boardImaginative){
 
 };
 
 
 void Game::run() {
-
-    Steps steps(*this->board);
-    Player player(*this->board, steps);
+    Steps steps(*this->boardReal);
+    Steps steps1(*this->boardImaginative);
+    Player player(*this->boardReal, steps);
+    Player player1(*this->boardImaginative,steps1);
+    ComputerBoard compu(*this->boardImaginative,steps1,player1);
     bool choice;
-    //ComputerBoard computerBoard(*this->board,steps,player);
     Piece piece(0, 0);
-    board->printBoard();
+    boardReal->printBoard();
     while(player.checkHaveMove(steps.getVec())== true) {
         int flag=0;
         player.printWhoQueue(player.getPlayerX());
@@ -32,7 +33,8 @@ void Game::run() {
                 choice=player.checkInput(piece,steps.getVec());
             }
             steps.pieceToFlip(piece, player.getPlayerX());
-            board->printBoard();
+            boardReal->printBoard();
+            boardImaginative = boardReal;
             steps.clearVec();
 
         }
@@ -44,17 +46,20 @@ void Game::run() {
         steps.optionsToLocate(player.getPlayerO());
         int ans2 = steps.printOptions();
         if (ans2 == 1) {
-            piece =player.chosenMove();
-            choice= player.checkInput(piece,steps.getVec());
+            piece =steps.getVec().at(compu.checkMoveComputer());
+            /*choice= player.checkInput(piece,steps.getVec());
             while (!choice) {
                 cout<<"Your choice is'n an options.Choose move from the list."<<endl;
                 steps.printOptions();
                 piece = player.chosenMove();
                 choice= player.checkInput(piece,steps.getVec());
 
-            }
+            }*/
             steps.pieceToFlip(piece, player.getPlayerO());
-            board->printBoard();
+            boardReal->printBoard();
+            cout<< player.getPlayerO()<<" played "<<"("<<piece.getRow()<<","<<piece.getCol()<<")"<<endl;
+            cout<<endl;
+            boardImaginative = boardReal;
             steps.clearVec();
         }
         else{
@@ -73,4 +78,3 @@ void Game::run() {
     player.winner();
 
 }
-

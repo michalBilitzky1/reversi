@@ -19,8 +19,9 @@ public:
     //constractor
     ComputerBoard(Board &board, Steps steps, Player player);
 
-    void checkMoveComputer();
-    int grade();
+    int checkMoveComputer();
+    //int grade();
+    int checkMoveHuman();
 };
 
 
