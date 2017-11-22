@@ -18,9 +18,6 @@ void Player::printWhoQueue(char player){
 
 }
 
-
-
-
 Piece Player::chosenMove(){
     cout<<"Please enter your move- row col:";
     int x,y;
