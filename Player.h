@@ -77,6 +77,10 @@ public:
  * output:true or false.
  */
     bool checkInput(Piece piece,vector<Piece> vec);
+
+
+    char getPlayerO();
+    char getPlayerX();
 };
 
 

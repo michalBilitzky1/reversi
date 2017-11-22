@@ -105,3 +105,11 @@ void Player::winner(){
         cout << "Is a draw" << endl;
     }
 }
+
+char Player:: getPlayerO(){
+    return player_o;
+}
+
+char Player:: getPlayerX(){
+    return player_x;
+}

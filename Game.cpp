@@ -19,8 +19,8 @@ void Game::run() {
     board->printBoard();
     while(player.checkHaveMove(steps.getVec())== true) {
         int flag=0;
-        player.printWhoQueue(x);
-        steps.optionsToLocate(x);
+        player.printWhoQueue(player.getPlayerX());
+        steps.optionsToLocate(player.getPlayerX());
         int ans = steps.printOptions();
         if (ans == 1) {
             piece = player.chosenMove();
@@ -31,7 +31,7 @@ void Game::run() {
                 piece = player.chosenMove();
                 choice=player.checkInput(piece,steps.getVec());
             }
-            steps.pieceToFlip(piece, x);
+            steps.pieceToFlip(piece, player.getPlayerX());
             board->printBoard();
             steps.clearVec();
 
@@ -40,8 +40,8 @@ void Game::run() {
             cout<<"No possible moves."<<endl;
             flag++;
         }
-        player.printWhoQueue(o);
-        steps.optionsToLocate(o);
+        player.printWhoQueue(player.getPlayerO());
+        steps.optionsToLocate(player.getPlayerO());
         int ans2 = steps.printOptions();
         if (ans2 == 1) {
             piece =player.chosenMove();
@@ -53,7 +53,7 @@ void Game::run() {
                 choice= player.checkInput(piece,steps.getVec());
 
             }
-            steps.pieceToFlip(piece, o);
+            steps.pieceToFlip(piece, player.getPlayerO());
             board->printBoard();
             steps.clearVec();
         }
