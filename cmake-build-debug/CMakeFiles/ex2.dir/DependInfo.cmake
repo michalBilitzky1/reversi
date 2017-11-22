@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/miri/CLionProjects/reversi/Board.cpp" "/home/miri/CLionProjects/reversi/cmake-build-debug/CMakeFiles/ex2.dir/Board.cpp.o"
+  "/home/miri/CLionProjects/reversi/ComputerBoard.cpp" "/home/miri/CLionProjects/reversi/cmake-build-debug/CMakeFiles/ex2.dir/ComputerBoard.cpp.o"
   "/home/miri/CLionProjects/reversi/Game.cpp" "/home/miri/CLionProjects/reversi/cmake-build-debug/CMakeFiles/ex2.dir/Game.cpp.o"
   "/home/miri/CLionProjects/reversi/Piece.cpp" "/home/miri/CLionProjects/reversi/cmake-build-debug/CMakeFiles/ex2.dir/Piece.cpp.o"
   "/home/miri/CLionProjects/reversi/Player.cpp" "/home/miri/CLionProjects/reversi/cmake-build-debug/CMakeFiles/ex2.dir/Player.cpp.o"

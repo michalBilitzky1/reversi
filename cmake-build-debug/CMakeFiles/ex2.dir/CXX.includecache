@@ -18,6 +18,18 @@ vector
 Piece.h
 /home/miri/CLionProjects/reversi/Piece.h
 
+/home/miri/CLionProjects/reversi/ComputerBoard.cpp
+ComputerBoard.h
+/home/miri/CLionProjects/reversi/ComputerBoard.h
+
+/home/miri/CLionProjects/reversi/ComputerBoard.h
+Board.h
+/home/miri/CLionProjects/reversi/Board.h
+Steps.h
+/home/miri/CLionProjects/reversi/Steps.h
+Player.h
+/home/miri/CLionProjects/reversi/Player.h
+
 /home/miri/CLionProjects/reversi/Game.cpp
 Game.h
 /home/miri/CLionProjects/reversi/Game.h
@@ -29,6 +41,8 @@ Steps.h
 /home/miri/CLionProjects/reversi/Steps.h
 Player.h
 /home/miri/CLionProjects/reversi/Player.h
+ComputerBoard.h
+/home/miri/CLionProjects/reversi/ComputerBoard.h
 
 /home/miri/CLionProjects/reversi/GameLogic.h
 Board.h

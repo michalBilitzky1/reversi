@@ -8,6 +8,7 @@
 #include "Board.h"
 #include "Steps.h"
 #include "Player.h"
+#include "ComputerBoard.h"
 
 class Game {
 
