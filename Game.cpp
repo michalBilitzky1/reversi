@@ -56,7 +56,7 @@ void Game::run() {
             steps.clearVec();
         }
         else{
-            cout<<"No possible moves."<<endl;
+            cout<<"No possible moves!"<<endl;
             flag++;
             if(flag==2) {
                 player.winner();
