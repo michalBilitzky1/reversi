@@ -11,10 +11,10 @@ Game::Game(Board &boardReal,Board &boardImaginative):boardReal(&boardReal),board
 
 void Game::run() {
     Steps steps(*this->boardReal);
-    Steps steps1(*this->boardImaginative);
+   Steps steps1(*this->boardImaginative);
     Player player(*this->boardReal, steps);
     Player player1(*this->boardImaginative,steps1);
-    ComputerBoard compu(*this->boardReal,*this->boardImaginative,player1,steps1);
+
     bool choice;
     Piece piece(0, 0);
     boardReal->printBoard();
@@ -36,12 +36,15 @@ void Game::run() {
             boardReal->printBoard();
             boardImaginative = boardReal;
             steps.clearVec();
+            steps1=steps;
+            player1=player;
 
         }
         else{
             cout<<"No possible moves."<<endl;
             flag++;
         }
+        ComputerBoard compu(*this->boardReal,*this->boardImaginative,player1,steps1);
         player.printWhoQueue(player.getPlayerO());
         steps.optionsToLocate(player.getPlayerO());
         int ans2 = steps.printOptions();
@@ -56,10 +59,10 @@ void Game::run() {
 
             }*/
             steps.pieceToFlip(piece, player.getPlayerO());
-            boardReal->printBoard();
+            boardImaginative->printBoard();
             cout<< player.getPlayerO()<<" played "<<"("<<piece.getRow()<<","<<piece.getCol()<<")"<<endl;
             cout<<endl;
-            boardImaginative = boardReal;
+            boardReal = boardImaginative;
             steps.clearVec();
         }
         else{
