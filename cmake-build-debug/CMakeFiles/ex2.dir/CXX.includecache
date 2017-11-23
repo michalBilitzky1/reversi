@@ -6,83 +6,83 @@
 
 #IncludeRegexTransform: 
 
-/home/miri/CLionProjects/reversi/Board.cpp
+/home/michalbi/CLionProjects/ex2/Board.cpp
 Board.h
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 iostream
 -
 vector
 -
 Piece.h
-/home/miri/CLionProjects/reversi/Piece.h
+/home/michalbi/CLionProjects/ex2/Piece.h
 
-/home/miri/CLionProjects/reversi/ComputerBoard.cpp
+/home/michalbi/CLionProjects/ex2/ComputerBoard.cpp
 ComputerBoard.h
-/home/miri/CLionProjects/reversi/ComputerBoard.h
+/home/michalbi/CLionProjects/ex2/ComputerBoard.h
 
-/home/miri/CLionProjects/reversi/ComputerBoard.h
+/home/michalbi/CLionProjects/ex2/ComputerBoard.h
 Board.h
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 Steps.h
-/home/miri/CLionProjects/reversi/Steps.h
+/home/michalbi/CLionProjects/ex2/Steps.h
 Player.h
-/home/miri/CLionProjects/reversi/Player.h
+/home/michalbi/CLionProjects/ex2/Player.h
 
-/home/miri/CLionProjects/reversi/Game.cpp
+/home/michalbi/CLionProjects/ex2/Game.cpp
 Game.h
-/home/miri/CLionProjects/reversi/Game.h
+/home/michalbi/CLionProjects/ex2/Game.h
 
-/home/miri/CLionProjects/reversi/Game.h
+/home/michalbi/CLionProjects/ex2/Game.h
 Board.h
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 Steps.h
-/home/miri/CLionProjects/reversi/Steps.h
+/home/michalbi/CLionProjects/ex2/Steps.h
 Player.h
-/home/miri/CLionProjects/reversi/Player.h
+/home/michalbi/CLionProjects/ex2/Player.h
 ComputerBoard.h
-/home/miri/CLionProjects/reversi/ComputerBoard.h
+/home/michalbi/CLionProjects/ex2/ComputerBoard.h
 
-/home/miri/CLionProjects/reversi/GameLogic.h
+/home/michalbi/CLionProjects/ex2/GameLogic.h
 Board.h
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 Piece.h
-/home/miri/CLionProjects/reversi/Piece.h
+/home/michalbi/CLionProjects/ex2/Piece.h
 
-/home/miri/CLionProjects/reversi/Piece.cpp
+/home/michalbi/CLionProjects/ex2/Piece.cpp
 Piece.h
-/home/miri/CLionProjects/reversi/Piece.h
+/home/michalbi/CLionProjects/ex2/Piece.h
 
-/home/miri/CLionProjects/reversi/Piece.h
+/home/michalbi/CLionProjects/ex2/Piece.h
 iostream
 -
 Board.h
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 
-/home/miri/CLionProjects/reversi/Player.cpp
+/home/michalbi/CLionProjects/ex2/Player.cpp
 Player.h
-/home/miri/CLionProjects/reversi/Player.h
+/home/michalbi/CLionProjects/ex2/Player.h
 
-/home/miri/CLionProjects/reversi/Player.h
+/home/michalbi/CLionProjects/ex2/Player.h
 Board.h
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 Steps.h
-/home/miri/CLionProjects/reversi/Steps.h
+/home/michalbi/CLionProjects/ex2/Steps.h
 
-/home/miri/CLionProjects/reversi/Steps.cpp
+/home/michalbi/CLionProjects/ex2/Steps.cpp
 Steps.h
-/home/miri/CLionProjects/reversi/Steps.h
+/home/michalbi/CLionProjects/ex2/Steps.h
 
-/home/miri/CLionProjects/reversi/Steps.h
+/home/michalbi/CLionProjects/ex2/Steps.h
 GameLogic.h
-/home/miri/CLionProjects/reversi/GameLogic.h
+/home/michalbi/CLionProjects/ex2/GameLogic.h
 
-/home/miri/CLionProjects/reversi/main.cpp
+/home/michalbi/CLionProjects/ex2/main.cpp
 iostream
 -
 Board.h
-/home/miri/CLionProjects/reversi/Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
 Game.h
-/home/miri/CLionProjects/reversi/Game.h
+/home/michalbi/CLionProjects/ex2/Game.h
 
