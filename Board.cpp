@@ -5,16 +5,16 @@
 
 #include "Board.h"
 
-
+#define SIZE 8
 
 Board::Board() {
     player_o = 'o';
     player_x = 'x';
-    row = 8;
-    col = 8;
-    this->board = new char *[9];
+    row = SIZE;
+    col = SIZE;
+    this->board = new char *[SIZE+1];
     for (int i = 0; i <= row; i++) {
-        this->board[i] = new char[9];
+        this->board[i] = new char[SIZE+1];
     }
 
     for (int i = 1; i <= row; i++) {
@@ -23,6 +23,9 @@ Board::Board() {
         }
     }
 
+  /*  board[3][2]=player_x;
+    board[3][3]=player_o;
+    board[4][2]=player_o;*/
     board[4][5]=player_x;
     board[5][4]=player_x;
     board[4][4]=player_o;

@@ -78,6 +78,18 @@ Steps.h
 GameLogic.h
 /home/michalbi/CLionProjects/ex2/GameLogic.h
 
+/home/michalbi/CLionProjects/ex2/Tests.cpp
+Tests.h
+/home/michalbi/CLionProjects/ex2/Tests.h
+Player.h
+/home/michalbi/CLionProjects/ex2/Player.h
+
+/home/michalbi/CLionProjects/ex2/Tests.h
+Board.h
+/home/michalbi/CLionProjects/ex2/Board.h
+Steps.h
+/home/michalbi/CLionProjects/ex2/Steps.h
+
 /home/michalbi/CLionProjects/ex2/main.cpp
 iostream
 -

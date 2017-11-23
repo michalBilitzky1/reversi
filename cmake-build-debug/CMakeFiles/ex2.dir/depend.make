@@ -39,6 +39,14 @@ CMakeFiles/ex2.dir/Steps.cpp.o: ../Piece.h
 CMakeFiles/ex2.dir/Steps.cpp.o: ../Steps.cpp
 CMakeFiles/ex2.dir/Steps.cpp.o: ../Steps.h
 
+CMakeFiles/ex2.dir/Tests.cpp.o: ../Board.h
+CMakeFiles/ex2.dir/Tests.cpp.o: ../GameLogic.h
+CMakeFiles/ex2.dir/Tests.cpp.o: ../Piece.h
+CMakeFiles/ex2.dir/Tests.cpp.o: ../Player.h
+CMakeFiles/ex2.dir/Tests.cpp.o: ../Steps.h
+CMakeFiles/ex2.dir/Tests.cpp.o: ../Tests.cpp
+CMakeFiles/ex2.dir/Tests.cpp.o: ../Tests.h
+
 CMakeFiles/ex2.dir/main.cpp.o: ../Board.h
 CMakeFiles/ex2.dir/main.cpp.o: ../ComputerBoard.h
 CMakeFiles/ex2.dir/main.cpp.o: ../Game.h

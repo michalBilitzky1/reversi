@@ -123,6 +123,12 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Steps.h">
 			<Option target="ex2"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests.h">
+			<Option target="ex2"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/main.cpp">
 			<Option target="ex2"/>
 		</Unit>

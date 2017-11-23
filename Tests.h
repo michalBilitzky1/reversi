@@ -6,8 +6,16 @@
 #define EX2_TESTS_H
 
 
-class Tests {
+#include "Board.h"
+#include "Steps.h"
 
+class Tests {
+private:
+    Board *board;
+
+public:
+    Tests(Board &board);
+    void test1();
 };
 
 

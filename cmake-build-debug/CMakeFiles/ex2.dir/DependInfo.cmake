@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/michalbi/CLionProjects/ex2/Piece.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Piece.cpp.o"
   "/home/michalbi/CLionProjects/ex2/Player.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Player.cpp.o"
   "/home/michalbi/CLionProjects/ex2/Steps.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Steps.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/Tests.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Tests.cpp.o"
   "/home/michalbi/CLionProjects/ex2/main.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -12,12 +12,14 @@
 
 class ComputerBoard {
 private:
-    Board* board;
+    Board* boardReal;
+    Board* boardImaginative;
     Steps steps;
     Player player;
 public:
     //constractor
-    ComputerBoard(Board &board, Steps steps, Player player);
+    ComputerBoard(Board &boardReal,Board &boardImaginative, Player player, Steps steps);
+
 
     int checkMoveComputer();
     //int grade();

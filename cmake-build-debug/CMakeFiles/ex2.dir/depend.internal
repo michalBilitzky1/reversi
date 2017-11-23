@@ -39,6 +39,14 @@ CMakeFiles/ex2.dir/Steps.cpp.o
  /home/michalbi/CLionProjects/ex2/Piece.h
  /home/michalbi/CLionProjects/ex2/Steps.cpp
  /home/michalbi/CLionProjects/ex2/Steps.h
+CMakeFiles/ex2.dir/Tests.cpp.o
+ /home/michalbi/CLionProjects/ex2/Board.h
+ /home/michalbi/CLionProjects/ex2/GameLogic.h
+ /home/michalbi/CLionProjects/ex2/Piece.h
+ /home/michalbi/CLionProjects/ex2/Player.h
+ /home/michalbi/CLionProjects/ex2/Steps.h
+ /home/michalbi/CLionProjects/ex2/Tests.cpp
+ /home/michalbi/CLionProjects/ex2/Tests.h
 CMakeFiles/ex2.dir/main.cpp.o
  /home/michalbi/CLionProjects/ex2/Board.h
  /home/michalbi/CLionProjects/ex2/ComputerBoard.h

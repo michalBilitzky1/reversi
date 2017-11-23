@@ -14,7 +14,7 @@ void Game::run() {
     Steps steps1(*this->boardImaginative);
     Player player(*this->boardReal, steps);
     Player player1(*this->boardImaginative,steps1);
-    ComputerBoard compu(*this->boardImaginative,steps1,player1);
+    ComputerBoard compu(*this->boardReal,*this->boardImaginative,player1,steps1);
     bool choice;
     Piece piece(0, 0);
     boardReal->printBoard();
@@ -44,6 +44,7 @@ void Game::run() {
         }
         player.printWhoQueue(player.getPlayerO());
         steps.optionsToLocate(player.getPlayerO());
+       // steps1 =steps;
         int ans2 = steps.printOptions();
         if (ans2 == 1) {
             piece =steps.getVec().at(compu.checkMoveComputer());
