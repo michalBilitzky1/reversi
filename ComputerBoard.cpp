@@ -60,7 +60,7 @@ int ComputerBoard::checkMoveHuman(){
         }
     }
     cout<<"max: "<<max<<endl;
-    cout<<grades.at(0)<<endl;
+    cout<<"grades:"<<grades.at(0)<<endl;
     return max;
 
 }
