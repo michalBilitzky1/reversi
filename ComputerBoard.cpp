@@ -3,11 +3,13 @@
 //
 
 #include "ComputerBoard.h"
-//blabla
+
+
+
+
 //המחלקה מקבלת גם לוח דמיוני וגם את האמיתי את כל הסטפס מבצעת בדמיוני
 ComputerBoard::ComputerBoard(Board &boardReal,Board &boardImaginative, Player player, Steps steps):
         boardReal(&boardReal),boardImaginative(&boardImaginative),steps(boardImaginative),player(boardImaginative,steps)
-
 {
     this->steps=steps;
     this->player=player;
@@ -17,16 +19,15 @@ ComputerBoard::ComputerBoard(Board &boardReal,Board &boardImaginative, Player pl
 
 int ComputerBoard::checkMoveComputer(){
 
-   steps.optionsToLocate(player.getPlayerO());
+    steps.optionsToLocate(player.getPlayerO());
     vector<Piece> vector=steps.getVec();//וקטור מחזיק את כל האופציות שיש למחשב כעת על כל אופציה בנפרד נעשה פליפ
     ///cout<<vector.at(0)<<endl();
     std::vector<int> minGrade;
     for(int i=0; i<vector.size()-1;i++){
-        cout<<"vec" <<vector.at(i).getRow()<<vector.at(i).getCol()<<endl;
         steps.pieceToFlip(vector.at(i),player.getPlayerO());//עשה פליפ לאופצייה הI
         minGrade.push_back(checkMoveHuman());
         boardImaginative=boardReal;//לאחר שבודק לגבי השחקן השני מחזיר את הלוח ללוח האמיתי. כדי שלא ישנה את הלוח האמיתי כל פעם
-       // cout<<"vec" <<vector.at(2).getRow()<<vector.at(2).getCol()<<endl;
+        // cout<<"vec" <<vector.at(2).getRow()<<vector.at(2).getCol()<<endl;
     }
 
     int min = minGrade.at(0);
@@ -44,14 +45,13 @@ int ComputerBoard::checkMoveComputer(){
 }
 
 int ComputerBoard::checkMoveHuman(){
-   Board *temp =boardImaginative;//שומר את הלוח הדמיוני כדי שהפליפ לא ישנה אותו
+    Board *temp =boardImaginative;//שומר את הלוח הדמיוני כדי שהפליפ לא ישנה אותו
     steps.optionsToLocate(player.getPlayerX());
     vector <Piece> vec = steps.getVec();
     vector <int> grades;
     for(int i=0;i<=vec.size()-1;i++){
         steps.pieceToFlip(vec.at(i),player.getPlayerX());
         int grade = player.countX()-player.countO();
-      //  cout<<"vec:"<<vec.at(i).getRow()<<vec.at(i).getCol()<<endl;
         grades.push_back(grade);
         boardImaginative=temp;//אחרי כל פליפ מחזיר ללוח הדמיוני שעלה
     }

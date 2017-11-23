@@ -9,6 +9,7 @@ Steps::Steps(Board &board):board(&board){
     player_o = 'o';
     player_x = 'x';
     vec.resize(0,0);
+    //vec2.resize(0,0);
 };
 
 
@@ -183,8 +184,10 @@ int Steps::printOptions(){
                     vec.erase(vec.begin() + i);
                 }
             }
+           // vec2.push_back(vec.at(i));
             cout << "(" << vec.at(i).getRow() << "," << vec.at(i).getCol() << ")";
         }
+       // vec2.push_back(vec.at(0));
         cout << "(" << vec.at(0).getRow() << "," << vec.at(0).getCol() << ")" << endl;
         cout << endl;
         return 1;
@@ -196,7 +199,13 @@ vector<Piece> Steps::getVec(){
     return this->vec;
 }
 
+/*vector<Piece> Steps::getVec2(){
+    return this->vec2;
+}
 
+void Steps::clearVec2(){
+    this->vec2.clear();;
+}*/
 
 void Steps::clearVec(){
     this->vec.clear();;

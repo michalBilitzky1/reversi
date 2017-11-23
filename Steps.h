@@ -17,6 +17,8 @@ private:
     char player_o;
     char player_x;
 
+   // vector<Piece> vec2;
+
 public:
 /**********************************
          * constructor
@@ -80,6 +82,9 @@ public:
  * output:none
 ***********************************/
     void clearVec();
+
+   /* vector<Piece> getVec2();
+    void clearVec2();*/
 
 
 };

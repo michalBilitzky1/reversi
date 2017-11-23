@@ -44,7 +44,6 @@ void Game::run() {
         }
         player.printWhoQueue(player.getPlayerO());
         steps.optionsToLocate(player.getPlayerO());
-       // steps1 =steps;
         int ans2 = steps.printOptions();
         if (ans2 == 1) {
             piece =steps.getVec().at(compu.checkMoveComputer());
