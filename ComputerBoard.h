@@ -21,7 +21,7 @@ public:
     ComputerBoard(Board &boardReal,Board &boardImaginative, Player player, Steps steps);
 
 
-    int checkMoveComputer();
+    int checkMoveComputer(vector<Piece> vector);
     //int grade();
     int checkMoveHuman();
 };

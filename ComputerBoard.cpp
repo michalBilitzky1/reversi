@@ -17,11 +17,12 @@ ComputerBoard::ComputerBoard(Board &boardReal,Board &boardImaginative, Player pl
 }
 
 
-int ComputerBoard::checkMoveComputer(){
+int ComputerBoard::checkMoveComputer(vector<Piece> vector){
 
-    steps.optionsToLocate(player.getPlayerO());
-    vector<Piece> vector=steps.getVec();//וקטור מחזיק את כל האופציות שיש למחשב כעת על כל אופציה בנפרד נעשה פליפ
-    ///cout<<vector.at(0)<<endl();
+   // steps.optionsToLocate(player.getPlayerO());
+   // vector<Piece> vector=steps.getVec();//וקטור מחזיק את כל האופציות שיש למחשב כעת על כל אופציה בנפרד נעשה פליפ
+    //cout<<vector.at(1).getRow()<<vector.at(1).getCol()<<endl;
+   // cout<<vector.size()<<endl;
     std::vector<int> minGrade;
     for(int i=0; i<vector.size()-1;i++){
         steps.pieceToFlip(vector.at(i),player.getPlayerO());//עשה פליפ לאופצייה הI
@@ -40,8 +41,8 @@ int ComputerBoard::checkMoveComputer(){
     while(min!=minGrade.at(i)){
         i++;
     }
+    cout<<"I:"<<i<<endl;
     return i;
-
 }
 
 int ComputerBoard::checkMoveHuman(){
@@ -61,8 +62,7 @@ int ComputerBoard::checkMoveHuman(){
             max = grades.at(i);
         }
     }
-    cout<<"max: "<<max<<endl;
-    cout<<"grades:"<<grades.at(0)<<endl;
+    cout<<"max "<<max<<endl;
     return max;
 
 }
