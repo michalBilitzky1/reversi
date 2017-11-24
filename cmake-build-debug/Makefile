@@ -258,6 +258,60 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+PlayerComputer.o: PlayerComputer.cpp.o
+
+.PHONY : PlayerComputer.o
+
+# target to build an object file
+PlayerComputer.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerComputer.cpp.o
+.PHONY : PlayerComputer.cpp.o
+
+PlayerComputer.i: PlayerComputer.cpp.i
+
+.PHONY : PlayerComputer.i
+
+# target to preprocess a source file
+PlayerComputer.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerComputer.cpp.i
+.PHONY : PlayerComputer.cpp.i
+
+PlayerComputer.s: PlayerComputer.cpp.s
+
+.PHONY : PlayerComputer.s
+
+# target to generate assembly for a file
+PlayerComputer.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerComputer.cpp.s
+.PHONY : PlayerComputer.cpp.s
+
+PlayerHuman.o: PlayerHuman.cpp.o
+
+.PHONY : PlayerHuman.o
+
+# target to build an object file
+PlayerHuman.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerHuman.cpp.o
+.PHONY : PlayerHuman.cpp.o
+
+PlayerHuman.i: PlayerHuman.cpp.i
+
+.PHONY : PlayerHuman.i
+
+# target to preprocess a source file
+PlayerHuman.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerHuman.cpp.i
+.PHONY : PlayerHuman.cpp.i
+
+PlayerHuman.s: PlayerHuman.cpp.s
+
+.PHONY : PlayerHuman.s
+
+# target to generate assembly for a file
+PlayerHuman.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerHuman.cpp.s
+.PHONY : PlayerHuman.cpp.s
+
 Steps.o: Steps.cpp.o
 
 .PHONY : Steps.o
@@ -363,6 +417,12 @@ help:
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... PlayerComputer.o"
+	@echo "... PlayerComputer.i"
+	@echo "... PlayerComputer.s"
+	@echo "... PlayerHuman.o"
+	@echo "... PlayerHuman.i"
+	@echo "... PlayerHuman.s"
 	@echo "... Steps.o"
 	@echo "... Steps.i"
 	@echo "... Steps.s"

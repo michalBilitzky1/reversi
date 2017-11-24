@@ -32,7 +32,7 @@ void Game::run() {
                 piece = player.chosenMove();
                 choice=player.checkInput(piece,steps.getVec());
             }
-            steps.pieceToFlip(piece, player.getPlayerX());
+            steps.flip(piece, player.getPlayerX());
             boardReal->printBoard();
             //boardImaginative = boardReal;
             steps.clearVec();
@@ -56,7 +56,7 @@ void Game::run() {
                 choice= player.checkInput(piece,steps.getVec());
 
             }*/
-            steps.pieceToFlip(piece, player.getPlayerO());
+            steps.flip(piece, player.getPlayerO());
             boardReal->printBoard();
             cout<< player.getPlayerO()<<" played "<<"("<<piece.getRow()<<","<<piece.getCol()<<")"<<endl;
             cout<<endl;

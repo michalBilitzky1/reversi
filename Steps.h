@@ -57,7 +57,7 @@ public:
  *  input:none
  *  output:none
 **********************************/
-    void pieceToFlip(Piece end, char player);
+    void flip(Piece end, char player);
 /**********************************
  * @param piece_to_add
  * adds a x to the board according to
@@ -85,6 +85,10 @@ public:
 
    /* vector<Piece> getVec2();
     void clearVec2();*/
+
+
+    void notFlip(Piece end, char player);
+    void removePiece(Piece piece_to_remove, char player);
 
 
 };

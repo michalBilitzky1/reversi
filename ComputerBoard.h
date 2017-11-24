@@ -8,7 +8,7 @@
 
 #include "Board.h"
 #include "Steps.h"
-#include "Player.h"
+#include "PlayerHuman.h"
 
 class ComputerBoard {
 private:

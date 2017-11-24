@@ -11,7 +11,7 @@ CMakeFiles/ex2.dir/ComputerBoard.cpp.o
  /home/miri/CLionProjects/reversi/ComputerBoard.h
  /home/miri/CLionProjects/reversi/GameLogic.h
  /home/miri/CLionProjects/reversi/Piece.h
- /home/miri/CLionProjects/reversi/Player.h
+ /home/miri/CLionProjects/reversi/PlayerHuman.h
  /home/miri/CLionProjects/reversi/Steps.h
 CMakeFiles/ex2.dir/Game.cpp.o
  /home/miri/CLionProjects/reversi/Board.h
@@ -20,18 +20,24 @@ CMakeFiles/ex2.dir/Game.cpp.o
  /home/miri/CLionProjects/reversi/Game.h
  /home/miri/CLionProjects/reversi/GameLogic.h
  /home/miri/CLionProjects/reversi/Piece.h
- /home/miri/CLionProjects/reversi/Player.h
+ /home/miri/CLionProjects/reversi/PlayerHuman.h
  /home/miri/CLionProjects/reversi/Steps.h
 CMakeFiles/ex2.dir/Piece.cpp.o
  /home/miri/CLionProjects/reversi/Board.h
  /home/miri/CLionProjects/reversi/Piece.cpp
  /home/miri/CLionProjects/reversi/Piece.h
 CMakeFiles/ex2.dir/Player.cpp.o
+ /home/miri/CLionProjects/reversi/Player.cpp
+ /home/miri/CLionProjects/reversi/Player.h
+CMakeFiles/ex2.dir/PlayerComputer.cpp.o
+ /home/miri/CLionProjects/reversi/PlayerComputer.cpp
+ /home/miri/CLionProjects/reversi/PlayerComputer.h
+CMakeFiles/ex2.dir/PlayerHuman.cpp.o
  /home/miri/CLionProjects/reversi/Board.h
  /home/miri/CLionProjects/reversi/GameLogic.h
  /home/miri/CLionProjects/reversi/Piece.h
- /home/miri/CLionProjects/reversi/Player.cpp
- /home/miri/CLionProjects/reversi/Player.h
+ /home/miri/CLionProjects/reversi/PlayerHuman.cpp
+ /home/miri/CLionProjects/reversi/PlayerHuman.h
  /home/miri/CLionProjects/reversi/Steps.h
 CMakeFiles/ex2.dir/Steps.cpp.o
  /home/miri/CLionProjects/reversi/Board.h
@@ -43,7 +49,7 @@ CMakeFiles/ex2.dir/Tests.cpp.o
  /home/miri/CLionProjects/reversi/Board.h
  /home/miri/CLionProjects/reversi/GameLogic.h
  /home/miri/CLionProjects/reversi/Piece.h
- /home/miri/CLionProjects/reversi/Player.h
+ /home/miri/CLionProjects/reversi/PlayerHuman.h
  /home/miri/CLionProjects/reversi/Steps.h
  /home/miri/CLionProjects/reversi/Tests.cpp
  /home/miri/CLionProjects/reversi/Tests.h
@@ -53,6 +59,6 @@ CMakeFiles/ex2.dir/main.cpp.o
  /home/miri/CLionProjects/reversi/Game.h
  /home/miri/CLionProjects/reversi/GameLogic.h
  /home/miri/CLionProjects/reversi/Piece.h
- /home/miri/CLionProjects/reversi/Player.h
+ /home/miri/CLionProjects/reversi/PlayerHuman.h
  /home/miri/CLionProjects/reversi/Steps.h
  /home/miri/CLionProjects/reversi/main.cpp

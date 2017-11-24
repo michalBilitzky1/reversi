@@ -216,7 +216,7 @@ void Steps::addPiece(Piece piece_to_add, char player){
 }
 
 
-void Steps::pieceToFlip(Piece end, char player) {
+void Steps::flip(Piece end, char player) {
     char not_playing;
     if(player=='x'){
         not_playing='o';
@@ -451,3 +451,242 @@ void Steps::pieceToFlip(Piece end, char player) {
     }
 }
 
+
+void Steps::notFlip(Piece end, char player){
+    char not_playing;
+    if(player=='x'){
+        not_playing='o';
+    }
+    else {
+        not_playing = 'x';
+    }
+    int i=1;
+    int j=1;
+    int t=0;
+    int p=0;
+
+    //up
+    if (end.getRow() > 1) {
+        while (this->board->getBoard()[end.getRow() - i][end.getCol()] == not_playing) {
+            if(end.getRow()-i>1) {
+                i++;
+            }else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow() - i][end.getCol()] == ' ') {
+            i = 1;
+        } else {
+            while (p < i) {
+                Piece add_piece(end.getRow() - p, end.getCol());
+                if (not_playing == player_o) {
+                    removePiece(add_piece, player_x);
+                } else {
+                    removePiece(add_piece, player_o);
+                }
+                p++;
+            }
+            i = 1;
+            p = 0;
+        }
+    }
+
+    //down
+    if (end.getRow() < board->getRowBoard()) {
+        while (this->board->getBoard()[end.getRow() + i][end.getCol()] == not_playing) {
+            if(end.getRow()+i< board->getRowBoard()) {
+                i++;
+            }else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow() + i][end.getCol()] == ' ') {
+            i = 1;
+        } else {
+            while (p < i) {
+                Piece add_piece(end.getRow() + p, end.getCol());
+                if (not_playing == player_o) {
+                    removePiece(add_piece, player_x);
+                } else {
+                    removePiece(add_piece, player_o);
+                }
+                p++;
+            }
+            i = 1;
+            p = 0;
+
+        }
+    }
+    //left
+    if (end.getCol() > 1) {
+        while (this->board->getBoard()[end.getRow()][end.getCol() - j] == not_playing) {
+            if(end.getCol()-j>1) {
+                j++;
+            }else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow()][end.getCol() - j] == ' ') {
+            j = 1;
+
+        } else {
+            while (t < j) {
+                Piece add_piece(end.getRow(), end.getCol() - t);
+                if (not_playing == player_o) {
+                   removePiece(add_piece, player_x);
+                } else {
+                    removePiece(add_piece, player_o);
+                }
+                t++;
+            }
+            j = 1;
+            t = 0;
+        }
+    }
+    //right
+    if (end.getCol() < board->getColBoard()) {
+        while (this->board->getBoard()[end.getRow()][end.getCol() + j] == not_playing) {
+            if(end.getCol()+j < board->getColBoard()) {
+                j++;
+            }else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow()][end.getCol() + j] == ' ') {
+            j = 1;
+
+        } else {
+            while (t < j) {
+                Piece add_piece(end.getRow(), end.getCol() + t);
+                if (not_playing == player_o) {
+                    removePiece(add_piece, player_x);
+                } else {
+                    removePiece(add_piece, player_o);
+                }
+                t++;
+            }
+            j = 1;
+            t = 0;
+        }
+    }
+    //up and left
+    if (end.getRow() > 1 && end.getCol() > 1) {
+        while (this->board->getBoard()[end.getRow() - i][end.getCol() - j] == not_playing) {
+            if(end.getRow()-i>1 && end.getCol()-j >1) {
+                i++;
+                j++;
+            }else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow() - i][end.getCol() - j] == ' ') {
+            i = 1;
+            j = 1;
+
+        } else {
+            while (p < i && t < j) {
+                Piece add_piece(end.getRow() - p, end.getCol() - t);
+                if (not_playing == player_o) {
+                    removePiece(add_piece, player_x);
+                } else {
+                   removePiece(add_piece, player_o);
+                }
+                p++;
+                t++;
+            }
+            p = 0;
+            t = 0;
+            i = 1;
+            j = 1;
+        }
+    }
+    //up and right
+    if (end.getRow() > 1 && end.getCol() < board->getColBoard()) {
+        while (this->board->getBoard()[end.getRow() - i][end.getCol() + j] == not_playing) {
+            if(end.getRow()-i>1 && end.getCol()+j< board->getColBoard()) {
+                i++;
+                j++;
+            }else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow() - i][end.getCol() + j] == ' ') {
+            i = 1;
+            j = 1;
+
+        } else {
+            while (p < i && t < j) {
+                Piece add_piece(end.getRow() - p, end.getCol() + t);
+                if (not_playing == player_o) {
+                    removePiece(add_piece, player_x);
+                } else {
+                    removePiece(add_piece, player_o);
+                }
+                p++;
+                t++;
+            }
+            p = 0;
+            t = 0;
+            i = 1;
+            j = 1;
+        }
+    }
+    //down and left
+    if (end.getRow() < board->getRowBoard() && end.getCol() > 1) {
+        while (this->board->getBoard()[end.getRow() + i][end.getCol() - j] == not_playing) {
+            if(end.getRow()+i < board->getRowBoard() && end.getCol()-j>1) {
+                i++;
+                j++;
+            } else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow() + i][end.getCol() - j] == ' ') {
+            i = 1;
+            j = 1;
+
+        } else {
+            while (p < i && t < j) {
+                Piece add_piece(end.getRow() + p, end.getCol() - t);
+                if (not_playing == player_o) {
+                   removePiece(add_piece, player_x);
+                } else {
+                    removePiece(add_piece, player_o);
+                }
+                p++;
+                t++;
+            }
+            p = 0;
+            t = 0;
+            i = 1;
+            j = 1;
+        }
+    }
+    //down and right
+    if (end.getRow() < board->getRowBoard() && end.getCol() < board->getColBoard()) {
+        while (this->board->getBoard()[end.getRow() + i][end.getCol() + j] == not_playing) {
+            if(end.getRow()+i<board->getRowBoard() && end.getCol()+j<board->getColBoard()) {
+                i++;
+                j++;
+            }else
+                break;
+        }
+        if (this->board->getBoard()[end.getRow() + i][end.getCol() + j] == ' ') {
+            i = 1;
+            j = 1;
+
+        } else {
+            while (p < i && t < j) {
+                Piece add_piece(end.getRow() + p, end.getCol() + t);
+                if (not_playing == player_o) {
+                    removePiece(add_piece, player_x);
+                } else {
+                    removePiece(add_piece, player_o);
+                }
+                p++;
+                t++;
+            }
+            p = 0;
+            t = 0;
+            i = 1;
+            j = 1;
+        }
+    }
+}
+
+void Steps::removePiece(Piece piece_to_remove, char player){
+    this->board->getBoard()[piece_to_remove.getRow()][piece_to_remove.getCol()]=' ';
+}

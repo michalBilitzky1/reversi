@@ -3,7 +3,7 @@
 //
 
 #include "Tests.h"
-#include "Player.h"
+#include "PlayerHuman.h"
 
 Tests::Tests(Board &board):board(&board){
 

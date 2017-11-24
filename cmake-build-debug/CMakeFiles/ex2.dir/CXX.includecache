@@ -27,8 +27,8 @@ Board.h
 /home/miri/CLionProjects/reversi/Board.h
 Steps.h
 /home/miri/CLionProjects/reversi/Steps.h
-Player.h
-/home/miri/CLionProjects/reversi/Player.h
+PlayerHuman.h
+/home/miri/CLionProjects/reversi/PlayerHuman.h
 
 /home/miri/CLionProjects/reversi/Game.cpp
 Game.h
@@ -39,8 +39,8 @@ Board.h
 /home/miri/CLionProjects/reversi/Board.h
 Steps.h
 /home/miri/CLionProjects/reversi/Steps.h
-Player.h
-/home/miri/CLionProjects/reversi/Player.h
+PlayerHuman.h
+/home/miri/CLionProjects/reversi/PlayerHuman.h
 ComputerBoard.h
 /home/miri/CLionProjects/reversi/ComputerBoard.h
 
@@ -65,6 +65,18 @@ Player.h
 /home/miri/CLionProjects/reversi/Player.h
 
 /home/miri/CLionProjects/reversi/Player.h
+
+/home/miri/CLionProjects/reversi/PlayerComputer.cpp
+PlayerComputer.h
+/home/miri/CLionProjects/reversi/PlayerComputer.h
+
+/home/miri/CLionProjects/reversi/PlayerComputer.h
+
+/home/miri/CLionProjects/reversi/PlayerHuman.cpp
+PlayerHuman.h
+/home/miri/CLionProjects/reversi/PlayerHuman.h
+
+/home/miri/CLionProjects/reversi/PlayerHuman.h
 Board.h
 /home/miri/CLionProjects/reversi/Board.h
 Steps.h
@@ -81,8 +93,8 @@ GameLogic.h
 /home/miri/CLionProjects/reversi/Tests.cpp
 Tests.h
 /home/miri/CLionProjects/reversi/Tests.h
-Player.h
-/home/miri/CLionProjects/reversi/Player.h
+PlayerHuman.h
+/home/miri/CLionProjects/reversi/PlayerHuman.h
 
 /home/miri/CLionProjects/reversi/Tests.h
 Board.h

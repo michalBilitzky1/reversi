@@ -14,7 +14,7 @@ class GameLogic{
 public:
     virtual void optionsToLocate(char player)=0;
     virtual int printOptions()=0;
-    virtual void pieceToFlip(Piece end, char player)=0;
+    virtual void flip(Piece end, char player)=0;
     virtual ~GameLogic(){ };
 };
 #endif //EX2_GAMELOGIC_H

@@ -10,7 +10,7 @@ CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../ComputerBoard.cpp
 CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../ComputerBoard.h
 CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../GameLogic.h
 CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../Piece.h
-CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../Player.h
+CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../PlayerHuman.h
 CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../Steps.h
 
 CMakeFiles/ex2.dir/Game.cpp.o: ../Board.h
@@ -19,19 +19,25 @@ CMakeFiles/ex2.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/ex2.dir/Game.cpp.o: ../Game.h
 CMakeFiles/ex2.dir/Game.cpp.o: ../GameLogic.h
 CMakeFiles/ex2.dir/Game.cpp.o: ../Piece.h
-CMakeFiles/ex2.dir/Game.cpp.o: ../Player.h
+CMakeFiles/ex2.dir/Game.cpp.o: ../PlayerHuman.h
 CMakeFiles/ex2.dir/Game.cpp.o: ../Steps.h
 
 CMakeFiles/ex2.dir/Piece.cpp.o: ../Board.h
 CMakeFiles/ex2.dir/Piece.cpp.o: ../Piece.cpp
 CMakeFiles/ex2.dir/Piece.cpp.o: ../Piece.h
 
-CMakeFiles/ex2.dir/Player.cpp.o: ../Board.h
-CMakeFiles/ex2.dir/Player.cpp.o: ../GameLogic.h
-CMakeFiles/ex2.dir/Player.cpp.o: ../Piece.h
 CMakeFiles/ex2.dir/Player.cpp.o: ../Player.cpp
 CMakeFiles/ex2.dir/Player.cpp.o: ../Player.h
-CMakeFiles/ex2.dir/Player.cpp.o: ../Steps.h
+
+CMakeFiles/ex2.dir/PlayerComputer.cpp.o: ../PlayerComputer.cpp
+CMakeFiles/ex2.dir/PlayerComputer.cpp.o: ../PlayerComputer.h
+
+CMakeFiles/ex2.dir/PlayerHuman.cpp.o: ../Board.h
+CMakeFiles/ex2.dir/PlayerHuman.cpp.o: ../GameLogic.h
+CMakeFiles/ex2.dir/PlayerHuman.cpp.o: ../Piece.h
+CMakeFiles/ex2.dir/PlayerHuman.cpp.o: ../PlayerHuman.cpp
+CMakeFiles/ex2.dir/PlayerHuman.cpp.o: ../PlayerHuman.h
+CMakeFiles/ex2.dir/PlayerHuman.cpp.o: ../Steps.h
 
 CMakeFiles/ex2.dir/Steps.cpp.o: ../Board.h
 CMakeFiles/ex2.dir/Steps.cpp.o: ../GameLogic.h
@@ -42,7 +48,7 @@ CMakeFiles/ex2.dir/Steps.cpp.o: ../Steps.h
 CMakeFiles/ex2.dir/Tests.cpp.o: ../Board.h
 CMakeFiles/ex2.dir/Tests.cpp.o: ../GameLogic.h
 CMakeFiles/ex2.dir/Tests.cpp.o: ../Piece.h
-CMakeFiles/ex2.dir/Tests.cpp.o: ../Player.h
+CMakeFiles/ex2.dir/Tests.cpp.o: ../PlayerHuman.h
 CMakeFiles/ex2.dir/Tests.cpp.o: ../Steps.h
 CMakeFiles/ex2.dir/Tests.cpp.o: ../Tests.cpp
 CMakeFiles/ex2.dir/Tests.cpp.o: ../Tests.h
@@ -52,7 +58,7 @@ CMakeFiles/ex2.dir/main.cpp.o: ../ComputerBoard.h
 CMakeFiles/ex2.dir/main.cpp.o: ../Game.h
 CMakeFiles/ex2.dir/main.cpp.o: ../GameLogic.h
 CMakeFiles/ex2.dir/main.cpp.o: ../Piece.h
-CMakeFiles/ex2.dir/main.cpp.o: ../Player.h
+CMakeFiles/ex2.dir/main.cpp.o: ../PlayerHuman.h
 CMakeFiles/ex2.dir/main.cpp.o: ../Steps.h
 CMakeFiles/ex2.dir/main.cpp.o: ../main.cpp
 

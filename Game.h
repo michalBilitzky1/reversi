@@ -7,7 +7,7 @@
 #define EX2_GAME_H
 #include "Board.h"
 #include "Steps.h"
-#include "Player.h"
+#include "PlayerHuman.h"
 #include "ComputerBoard.h"
 
 class Game {

@@ -117,6 +117,18 @@
 		<Unit filename="/home/miri/CLionProjects/reversi/Player.h">
 			<Option target="ex2"/>
 		</Unit>
+		<Unit filename="/home/miri/CLionProjects/reversi/PlayerComputer.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/miri/CLionProjects/reversi/PlayerComputer.h">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/miri/CLionProjects/reversi/PlayerHuman.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/miri/CLionProjects/reversi/PlayerHuman.h">
+			<Option target="ex2"/>
+		</Unit>
 		<Unit filename="/home/miri/CLionProjects/reversi/Steps.cpp">
 			<Option target="ex2"/>
 		</Unit>
