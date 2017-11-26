@@ -184,10 +184,10 @@ int Steps::printOptions(){
                     vec.erase(vec.begin() + i);
                 }
             }
-           // vec2.push_back(vec.at(i));
+            // vec2.push_back(vec.at(i));
             cout << "(" << vec.at(i).getRow() << "," << vec.at(i).getCol() << ")";
         }
-       // vec2.push_back(vec.at(0));
+        // vec2.push_back(vec.at(0));
         cout << "(" << vec.at(0).getRow() << "," << vec.at(0).getCol() << ")" << endl;
         cout << endl;
         return 1;
@@ -476,12 +476,17 @@ void Steps::notFlip(Piece end, char player){
         if (this->board->getBoard()[end.getRow() - i][end.getCol()] == ' ') {
             i = 1;
         } else {
-            while (p < i) {
-                Piece add_piece(end.getRow() - p, end.getCol());
+            Piece add_piece(end.getRow() - p, end.getCol());
+
+                removePiece(add_piece);
+
+            p=1;
+            while (p < i-1) {
+                Piece add_piece1(end.getRow() - p, end.getCol());
                 if (not_playing == player_o) {
-                    removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                    removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
                 p++;
             }
@@ -501,12 +506,17 @@ void Steps::notFlip(Piece end, char player){
         if (this->board->getBoard()[end.getRow() + i][end.getCol()] == ' ') {
             i = 1;
         } else {
-            while (p < i) {
-                Piece add_piece(end.getRow() + p, end.getCol());
+            Piece add_piece(end.getRow() + p, end.getCol());
+
+                removePiece(add_piece);
+
+            p=1;
+            while (p < i-1) {
+                Piece add_piece1(end.getRow() + p, end.getCol());
                 if (not_playing == player_o) {
-                    removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                    removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
                 p++;
             }
@@ -527,12 +537,17 @@ void Steps::notFlip(Piece end, char player){
             j = 1;
 
         } else {
-            while (t < j) {
-                Piece add_piece(end.getRow(), end.getCol() - t);
+            Piece add_piece(end.getRow() , end.getCol() - t);
+
+                removePiece(add_piece);
+
+            t=1;
+            while (t < j-1) {
+                Piece add_piece1(end.getRow(), end.getCol() - t);
                 if (not_playing == player_o) {
-                   removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                    removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
                 t++;
             }
@@ -552,12 +567,17 @@ void Steps::notFlip(Piece end, char player){
             j = 1;
 
         } else {
-            while (t < j) {
-                Piece add_piece(end.getRow(), end.getCol() + t);
+            Piece add_piece(end.getRow() , end.getCol() + t);
+
+                removePiece(add_piece);
+
+            t=1;
+            while (t < j-1) {
+                Piece add_piece1(end.getRow(), end.getCol() + t);
                 if (not_playing == player_o) {
-                    removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                    removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
                 t++;
             }
@@ -579,15 +599,19 @@ void Steps::notFlip(Piece end, char player){
             j = 1;
 
         } else {
-            while (p < i && t < j) {
-                Piece add_piece(end.getRow() - p, end.getCol() - t);
+            Piece add_piece(end.getRow() - p , end.getCol() - t);
+
+                removePiece(add_piece);
+
+            t=1; p=1;
+            while (t < j-1 && p<i-1) {
+                Piece add_piece1(end.getRow() - p, end.getCol() - t);
                 if (not_playing == player_o) {
-                    removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                   removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
-                p++;
-                t++;
+                t++;p++;
             }
             p = 0;
             t = 0;
@@ -609,15 +633,19 @@ void Steps::notFlip(Piece end, char player){
             j = 1;
 
         } else {
-            while (p < i && t < j) {
-                Piece add_piece(end.getRow() - p, end.getCol() + t);
+            Piece add_piece(end.getRow() - p , end.getCol() + t);
+
+                removePiece(add_piece);
+
+            t=1; p=1;
+            while (t < j-1 && p<i-1) {
+                Piece add_piece1(end.getRow() - p, end.getCol() + t);
                 if (not_playing == player_o) {
-                    removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                    removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
-                p++;
-                t++;
+                t++;p++;
             }
             p = 0;
             t = 0;
@@ -639,15 +667,19 @@ void Steps::notFlip(Piece end, char player){
             j = 1;
 
         } else {
-            while (p < i && t < j) {
-                Piece add_piece(end.getRow() + p, end.getCol() - t);
+            Piece add_piece(end.getRow() + p , end.getCol() - t);
+
+                removePiece(add_piece);
+
+            t=1; p=1;
+            while (t < j-1 && p<i-1) {
+                Piece add_piece1(end.getRow() + p, end.getCol() - t);
                 if (not_playing == player_o) {
-                   removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                    removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
-                p++;
-                t++;
+                t++;p++;
             }
             p = 0;
             t = 0;
@@ -669,15 +701,19 @@ void Steps::notFlip(Piece end, char player){
             j = 1;
 
         } else {
-            while (p < i && t < j) {
-                Piece add_piece(end.getRow() + p, end.getCol() + t);
+            Piece add_piece(end.getRow() + p , end.getCol() + t);
+
+                removePiece(add_piece);
+
+            t=1; p=1;
+            while (t < j-1 && p<i-1) {
+                Piece add_piece1(end.getRow() + p, end.getCol() + t);
                 if (not_playing == player_o) {
-                    removePiece(add_piece, player_x);
+                    addPiece(add_piece1, player_o);
                 } else {
-                    removePiece(add_piece, player_o);
+                    addPiece(add_piece1, player_x);
                 }
-                p++;
-                t++;
+                t++;p++;
             }
             p = 0;
             t = 0;
@@ -687,6 +723,6 @@ void Steps::notFlip(Piece end, char player){
     }
 }
 
-void Steps::removePiece(Piece piece_to_remove, char player){
+void Steps::removePiece(Piece piece_to_remove){
     this->board->getBoard()[piece_to_remove.getRow()][piece_to_remove.getCol()]=' ';
 }

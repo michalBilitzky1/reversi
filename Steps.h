@@ -17,7 +17,7 @@ private:
     char player_o;
     char player_x;
 
-   // vector<Piece> vec2;
+    // vector<Piece> vec2;
 
 public:
 /**********************************
@@ -83,12 +83,12 @@ public:
 ***********************************/
     void clearVec();
 
-   /* vector<Piece> getVec2();
-    void clearVec2();*/
+    /* vector<Piece> getVec2();
+     void clearVec2();*/
 
 
     void notFlip(Piece end, char player);
-    void removePiece(Piece piece_to_remove, char player);
+    void removePiece(Piece piece_to_remove);
 
 
 };

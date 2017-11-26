@@ -11,9 +11,9 @@ Game::Game(Board &boardReal,Board &boardImaginative):boardReal(&boardReal),board
 
 void Game::run() {
     Steps steps(*this->boardReal);
-  // Steps steps1(*this->boardImaginative);
+    // Steps steps1(*this->boardImaginative);
     Player player(*this->boardReal, steps);
-   // Player player1(*this->boardImaginative,steps1);
+    // Player player1(*this->boardImaginative,steps1);
     ComputerBoard compu(*this->boardReal,*this->boardImaginative,player,steps);
     bool choice;
     Piece piece(0, 0);
@@ -61,7 +61,7 @@ void Game::run() {
             cout<< player.getPlayerO()<<" played "<<"("<<piece.getRow()<<","<<piece.getCol()<<")"<<endl;
             cout<<endl;
             boardImaginative = boardReal;
-           // boardReal = boardImaginative;
+            // boardReal = boardImaginative;
             steps.clearVec();
         }
         else{

@@ -24,7 +24,7 @@ Board::Board() {
     }
 
     board[4][5]=player_x;
-    board[5][4]=player_x;
+   board[5][4]=player_x;
     board[4][4]=player_o;
     board[5][5]=player_o;
 
@@ -69,8 +69,5 @@ int Board::getRowBoard() {
 int Board::getColBoard() {
     return this->col;
 }
-
-
-
 
 
