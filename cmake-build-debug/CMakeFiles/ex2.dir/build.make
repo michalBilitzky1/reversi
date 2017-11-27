@@ -57,9 +57,177 @@ include CMakeFiles/ex2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex2.dir/flags.make
 
+CMakeFiles/ex2.dir/src/Board.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/src/Board.cpp.o: ../src/Board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex2.dir/src/Board.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/src/Board.cpp.o -c /home/michalbi/CLionProjects/ex2/src/Board.cpp
+
+CMakeFiles/ex2.dir/src/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/src/Board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/src/Board.cpp > CMakeFiles/ex2.dir/src/Board.cpp.i
+
+CMakeFiles/ex2.dir/src/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/src/Board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/src/Board.cpp -o CMakeFiles/ex2.dir/src/Board.cpp.s
+
+CMakeFiles/ex2.dir/src/Board.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/src/Board.cpp.o.requires
+
+CMakeFiles/ex2.dir/src/Board.cpp.o.provides: CMakeFiles/ex2.dir/src/Board.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/src/Board.cpp.o.provides
+
+CMakeFiles/ex2.dir/src/Board.cpp.o.provides.build: CMakeFiles/ex2.dir/src/Board.cpp.o
+
+
+CMakeFiles/ex2.dir/src/Piece.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/src/Piece.cpp.o: ../src/Piece.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex2.dir/src/Piece.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/src/Piece.cpp.o -c /home/michalbi/CLionProjects/ex2/src/Piece.cpp
+
+CMakeFiles/ex2.dir/src/Piece.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/src/Piece.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/src/Piece.cpp > CMakeFiles/ex2.dir/src/Piece.cpp.i
+
+CMakeFiles/ex2.dir/src/Piece.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/src/Piece.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/src/Piece.cpp -o CMakeFiles/ex2.dir/src/Piece.cpp.s
+
+CMakeFiles/ex2.dir/src/Piece.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/src/Piece.cpp.o.requires
+
+CMakeFiles/ex2.dir/src/Piece.cpp.o.provides: CMakeFiles/ex2.dir/src/Piece.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Piece.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/src/Piece.cpp.o.provides
+
+CMakeFiles/ex2.dir/src/Piece.cpp.o.provides.build: CMakeFiles/ex2.dir/src/Piece.cpp.o
+
+
+CMakeFiles/ex2.dir/src/Steps.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/src/Steps.cpp.o: ../src/Steps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex2.dir/src/Steps.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/src/Steps.cpp.o -c /home/michalbi/CLionProjects/ex2/src/Steps.cpp
+
+CMakeFiles/ex2.dir/src/Steps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/src/Steps.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/src/Steps.cpp > CMakeFiles/ex2.dir/src/Steps.cpp.i
+
+CMakeFiles/ex2.dir/src/Steps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/src/Steps.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/src/Steps.cpp -o CMakeFiles/ex2.dir/src/Steps.cpp.s
+
+CMakeFiles/ex2.dir/src/Steps.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/src/Steps.cpp.o.requires
+
+CMakeFiles/ex2.dir/src/Steps.cpp.o.provides: CMakeFiles/ex2.dir/src/Steps.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/src/Steps.cpp.o.provides
+
+CMakeFiles/ex2.dir/src/Steps.cpp.o.provides.build: CMakeFiles/ex2.dir/src/Steps.cpp.o
+
+
+CMakeFiles/ex2.dir/src/Game.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/src/Game.cpp.o: ../src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex2.dir/src/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/src/Game.cpp.o -c /home/michalbi/CLionProjects/ex2/src/Game.cpp
+
+CMakeFiles/ex2.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/src/Game.cpp > CMakeFiles/ex2.dir/src/Game.cpp.i
+
+CMakeFiles/ex2.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/src/Game.cpp -o CMakeFiles/ex2.dir/src/Game.cpp.s
+
+CMakeFiles/ex2.dir/src/Game.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/src/Game.cpp.o.requires
+
+CMakeFiles/ex2.dir/src/Game.cpp.o.provides: CMakeFiles/ex2.dir/src/Game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Game.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/src/Game.cpp.o.provides
+
+CMakeFiles/ex2.dir/src/Game.cpp.o.provides.build: CMakeFiles/ex2.dir/src/Game.cpp.o
+
+
+CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o: ../src/ComputerBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o -c /home/michalbi/CLionProjects/ex2/src/ComputerBoard.cpp
+
+CMakeFiles/ex2.dir/src/ComputerBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/src/ComputerBoard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/src/ComputerBoard.cpp > CMakeFiles/ex2.dir/src/ComputerBoard.cpp.i
+
+CMakeFiles/ex2.dir/src/ComputerBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/src/ComputerBoard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/src/ComputerBoard.cpp -o CMakeFiles/ex2.dir/src/ComputerBoard.cpp.s
+
+CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.requires
+
+CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.provides: CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.provides
+
+CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.provides.build: CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o
+
+
+CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o: ../src/PlayerComputer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o -c /home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp
+
+CMakeFiles/ex2.dir/src/PlayerComputer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/src/PlayerComputer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp > CMakeFiles/ex2.dir/src/PlayerComputer.cpp.i
+
+CMakeFiles/ex2.dir/src/PlayerComputer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/src/PlayerComputer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp -o CMakeFiles/ex2.dir/src/PlayerComputer.cpp.s
+
+CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.requires
+
+CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.provides: CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.provides
+
+CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.provides.build: CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o
+
+
+CMakeFiles/ex2.dir/src/Player.cpp.o: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/src/Player.cpp.o: ../src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex2.dir/src/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/src/Player.cpp.o -c /home/michalbi/CLionProjects/ex2/src/Player.cpp
+
+CMakeFiles/ex2.dir/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/src/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/src/Player.cpp > CMakeFiles/ex2.dir/src/Player.cpp.i
+
+CMakeFiles/ex2.dir/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/src/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/src/Player.cpp -o CMakeFiles/ex2.dir/src/Player.cpp.s
+
+CMakeFiles/ex2.dir/src/Player.cpp.o.requires:
+
+.PHONY : CMakeFiles/ex2.dir/src/Player.cpp.o.requires
+
+CMakeFiles/ex2.dir/src/Player.cpp.o.provides: CMakeFiles/ex2.dir/src/Player.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Player.cpp.o.provides.build
+.PHONY : CMakeFiles/ex2.dir/src/Player.cpp.o.provides
+
+CMakeFiles/ex2.dir/src/Player.cpp.o.provides.build: CMakeFiles/ex2.dir/src/Player.cpp.o
+
+
 CMakeFiles/ex2.dir/main.cpp.o: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex2.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex2.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/main.cpp.o -c /home/michalbi/CLionProjects/ex2/main.cpp
 
 CMakeFiles/ex2.dir/main.cpp.i: cmake_force
@@ -81,251 +249,31 @@ CMakeFiles/ex2.dir/main.cpp.o.provides: CMakeFiles/ex2.dir/main.cpp.o.requires
 CMakeFiles/ex2.dir/main.cpp.o.provides.build: CMakeFiles/ex2.dir/main.cpp.o
 
 
-CMakeFiles/ex2.dir/Board.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/Board.cpp.o: ../Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex2.dir/Board.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Board.cpp.o -c /home/michalbi/CLionProjects/ex2/Board.cpp
-
-CMakeFiles/ex2.dir/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/Board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/Board.cpp > CMakeFiles/ex2.dir/Board.cpp.i
-
-CMakeFiles/ex2.dir/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/Board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/Board.cpp -o CMakeFiles/ex2.dir/Board.cpp.s
-
-CMakeFiles/ex2.dir/Board.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/Board.cpp.o.requires
-
-CMakeFiles/ex2.dir/Board.cpp.o.provides: CMakeFiles/ex2.dir/Board.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Board.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/Board.cpp.o.provides
-
-CMakeFiles/ex2.dir/Board.cpp.o.provides.build: CMakeFiles/ex2.dir/Board.cpp.o
-
-
-CMakeFiles/ex2.dir/Piece.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/Piece.cpp.o: ../Piece.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex2.dir/Piece.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Piece.cpp.o -c /home/michalbi/CLionProjects/ex2/Piece.cpp
-
-CMakeFiles/ex2.dir/Piece.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/Piece.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/Piece.cpp > CMakeFiles/ex2.dir/Piece.cpp.i
-
-CMakeFiles/ex2.dir/Piece.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/Piece.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/Piece.cpp -o CMakeFiles/ex2.dir/Piece.cpp.s
-
-CMakeFiles/ex2.dir/Piece.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/Piece.cpp.o.requires
-
-CMakeFiles/ex2.dir/Piece.cpp.o.provides: CMakeFiles/ex2.dir/Piece.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Piece.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/Piece.cpp.o.provides
-
-CMakeFiles/ex2.dir/Piece.cpp.o.provides.build: CMakeFiles/ex2.dir/Piece.cpp.o
-
-
-CMakeFiles/ex2.dir/Steps.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/Steps.cpp.o: ../Steps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex2.dir/Steps.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Steps.cpp.o -c /home/michalbi/CLionProjects/ex2/Steps.cpp
-
-CMakeFiles/ex2.dir/Steps.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/Steps.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/Steps.cpp > CMakeFiles/ex2.dir/Steps.cpp.i
-
-CMakeFiles/ex2.dir/Steps.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/Steps.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/Steps.cpp -o CMakeFiles/ex2.dir/Steps.cpp.s
-
-CMakeFiles/ex2.dir/Steps.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/Steps.cpp.o.requires
-
-CMakeFiles/ex2.dir/Steps.cpp.o.provides: CMakeFiles/ex2.dir/Steps.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Steps.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/Steps.cpp.o.provides
-
-CMakeFiles/ex2.dir/Steps.cpp.o.provides.build: CMakeFiles/ex2.dir/Steps.cpp.o
-
-
-CMakeFiles/ex2.dir/PlayerHuman.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/PlayerHuman.cpp.o: ../PlayerHuman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex2.dir/PlayerHuman.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/PlayerHuman.cpp.o -c /home/michalbi/CLionProjects/ex2/PlayerHuman.cpp
-
-CMakeFiles/ex2.dir/PlayerHuman.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/PlayerHuman.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/PlayerHuman.cpp > CMakeFiles/ex2.dir/PlayerHuman.cpp.i
-
-CMakeFiles/ex2.dir/PlayerHuman.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/PlayerHuman.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/PlayerHuman.cpp -o CMakeFiles/ex2.dir/PlayerHuman.cpp.s
-
-CMakeFiles/ex2.dir/PlayerHuman.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/PlayerHuman.cpp.o.requires
-
-CMakeFiles/ex2.dir/PlayerHuman.cpp.o.provides: CMakeFiles/ex2.dir/PlayerHuman.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerHuman.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/PlayerHuman.cpp.o.provides
-
-CMakeFiles/ex2.dir/PlayerHuman.cpp.o.provides.build: CMakeFiles/ex2.dir/PlayerHuman.cpp.o
-
-
-CMakeFiles/ex2.dir/Game.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/Game.cpp.o: ../Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex2.dir/Game.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Game.cpp.o -c /home/michalbi/CLionProjects/ex2/Game.cpp
-
-CMakeFiles/ex2.dir/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/Game.cpp > CMakeFiles/ex2.dir/Game.cpp.i
-
-CMakeFiles/ex2.dir/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/Game.cpp -o CMakeFiles/ex2.dir/Game.cpp.s
-
-CMakeFiles/ex2.dir/Game.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/Game.cpp.o.requires
-
-CMakeFiles/ex2.dir/Game.cpp.o.provides: CMakeFiles/ex2.dir/Game.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Game.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/Game.cpp.o.provides
-
-CMakeFiles/ex2.dir/Game.cpp.o.provides.build: CMakeFiles/ex2.dir/Game.cpp.o
-
-
-CMakeFiles/ex2.dir/ComputerBoard.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/ComputerBoard.cpp.o: ../ComputerBoard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ex2.dir/ComputerBoard.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/ComputerBoard.cpp.o -c /home/michalbi/CLionProjects/ex2/ComputerBoard.cpp
-
-CMakeFiles/ex2.dir/ComputerBoard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/ComputerBoard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/ComputerBoard.cpp > CMakeFiles/ex2.dir/ComputerBoard.cpp.i
-
-CMakeFiles/ex2.dir/ComputerBoard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/ComputerBoard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/ComputerBoard.cpp -o CMakeFiles/ex2.dir/ComputerBoard.cpp.s
-
-CMakeFiles/ex2.dir/ComputerBoard.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/ComputerBoard.cpp.o.requires
-
-CMakeFiles/ex2.dir/ComputerBoard.cpp.o.provides: CMakeFiles/ex2.dir/ComputerBoard.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ComputerBoard.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/ComputerBoard.cpp.o.provides
-
-CMakeFiles/ex2.dir/ComputerBoard.cpp.o.provides.build: CMakeFiles/ex2.dir/ComputerBoard.cpp.o
-
-
-CMakeFiles/ex2.dir/Tests.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/Tests.cpp.o: ../Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ex2.dir/Tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Tests.cpp.o -c /home/michalbi/CLionProjects/ex2/Tests.cpp
-
-CMakeFiles/ex2.dir/Tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/Tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/Tests.cpp > CMakeFiles/ex2.dir/Tests.cpp.i
-
-CMakeFiles/ex2.dir/Tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/Tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/Tests.cpp -o CMakeFiles/ex2.dir/Tests.cpp.s
-
-CMakeFiles/ex2.dir/Tests.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/Tests.cpp.o.requires
-
-CMakeFiles/ex2.dir/Tests.cpp.o.provides: CMakeFiles/ex2.dir/Tests.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Tests.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/Tests.cpp.o.provides
-
-CMakeFiles/ex2.dir/Tests.cpp.o.provides.build: CMakeFiles/ex2.dir/Tests.cpp.o
-
-
-CMakeFiles/ex2.dir/PlayerComputer.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/PlayerComputer.cpp.o: ../PlayerComputer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ex2.dir/PlayerComputer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/PlayerComputer.cpp.o -c /home/michalbi/CLionProjects/ex2/PlayerComputer.cpp
-
-CMakeFiles/ex2.dir/PlayerComputer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/PlayerComputer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/PlayerComputer.cpp > CMakeFiles/ex2.dir/PlayerComputer.cpp.i
-
-CMakeFiles/ex2.dir/PlayerComputer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/PlayerComputer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/PlayerComputer.cpp -o CMakeFiles/ex2.dir/PlayerComputer.cpp.s
-
-CMakeFiles/ex2.dir/PlayerComputer.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/PlayerComputer.cpp.o.requires
-
-CMakeFiles/ex2.dir/PlayerComputer.cpp.o.provides: CMakeFiles/ex2.dir/PlayerComputer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerComputer.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/PlayerComputer.cpp.o.provides
-
-CMakeFiles/ex2.dir/PlayerComputer.cpp.o.provides.build: CMakeFiles/ex2.dir/PlayerComputer.cpp.o
-
-
-CMakeFiles/ex2.dir/Player.cpp.o: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/Player.cpp.o: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ex2.dir/Player.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex2.dir/Player.cpp.o -c /home/michalbi/CLionProjects/ex2/Player.cpp
-
-CMakeFiles/ex2.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michalbi/CLionProjects/ex2/Player.cpp > CMakeFiles/ex2.dir/Player.cpp.i
-
-CMakeFiles/ex2.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michalbi/CLionProjects/ex2/Player.cpp -o CMakeFiles/ex2.dir/Player.cpp.s
-
-CMakeFiles/ex2.dir/Player.cpp.o.requires:
-
-.PHONY : CMakeFiles/ex2.dir/Player.cpp.o.requires
-
-CMakeFiles/ex2.dir/Player.cpp.o.provides: CMakeFiles/ex2.dir/Player.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Player.cpp.o.provides.build
-.PHONY : CMakeFiles/ex2.dir/Player.cpp.o.provides
-
-CMakeFiles/ex2.dir/Player.cpp.o.provides.build: CMakeFiles/ex2.dir/Player.cpp.o
-
-
 # Object files for target ex2
 ex2_OBJECTS = \
-"CMakeFiles/ex2.dir/main.cpp.o" \
-"CMakeFiles/ex2.dir/Board.cpp.o" \
-"CMakeFiles/ex2.dir/Piece.cpp.o" \
-"CMakeFiles/ex2.dir/Steps.cpp.o" \
-"CMakeFiles/ex2.dir/PlayerHuman.cpp.o" \
-"CMakeFiles/ex2.dir/Game.cpp.o" \
-"CMakeFiles/ex2.dir/ComputerBoard.cpp.o" \
-"CMakeFiles/ex2.dir/Tests.cpp.o" \
-"CMakeFiles/ex2.dir/PlayerComputer.cpp.o" \
-"CMakeFiles/ex2.dir/Player.cpp.o"
+"CMakeFiles/ex2.dir/src/Board.cpp.o" \
+"CMakeFiles/ex2.dir/src/Piece.cpp.o" \
+"CMakeFiles/ex2.dir/src/Steps.cpp.o" \
+"CMakeFiles/ex2.dir/src/Game.cpp.o" \
+"CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o" \
+"CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o" \
+"CMakeFiles/ex2.dir/src/Player.cpp.o" \
+"CMakeFiles/ex2.dir/main.cpp.o"
 
 # External object files for target ex2
 ex2_EXTERNAL_OBJECTS =
 
+ex2: CMakeFiles/ex2.dir/src/Board.cpp.o
+ex2: CMakeFiles/ex2.dir/src/Piece.cpp.o
+ex2: CMakeFiles/ex2.dir/src/Steps.cpp.o
+ex2: CMakeFiles/ex2.dir/src/Game.cpp.o
+ex2: CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o
+ex2: CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o
+ex2: CMakeFiles/ex2.dir/src/Player.cpp.o
 ex2: CMakeFiles/ex2.dir/main.cpp.o
-ex2: CMakeFiles/ex2.dir/Board.cpp.o
-ex2: CMakeFiles/ex2.dir/Piece.cpp.o
-ex2: CMakeFiles/ex2.dir/Steps.cpp.o
-ex2: CMakeFiles/ex2.dir/PlayerHuman.cpp.o
-ex2: CMakeFiles/ex2.dir/Game.cpp.o
-ex2: CMakeFiles/ex2.dir/ComputerBoard.cpp.o
-ex2: CMakeFiles/ex2.dir/Tests.cpp.o
-ex2: CMakeFiles/ex2.dir/PlayerComputer.cpp.o
-ex2: CMakeFiles/ex2.dir/Player.cpp.o
 ex2: CMakeFiles/ex2.dir/build.make
 ex2: CMakeFiles/ex2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable ex2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ex2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -333,16 +281,14 @@ CMakeFiles/ex2.dir/build: ex2
 
 .PHONY : CMakeFiles/ex2.dir/build
 
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/src/Board.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/src/Piece.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/src/Steps.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/src/Game.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o.requires
+CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/src/Player.cpp.o.requires
 CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/main.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Board.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Piece.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Steps.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/PlayerHuman.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Game.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/ComputerBoard.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Tests.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/PlayerComputer.cpp.o.requires
-CMakeFiles/ex2.dir/requires: CMakeFiles/ex2.dir/Player.cpp.o.requires
 
 .PHONY : CMakeFiles/ex2.dir/requires
 

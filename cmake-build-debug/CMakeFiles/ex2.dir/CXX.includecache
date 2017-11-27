@@ -6,107 +6,93 @@
 
 #IncludeRegexTransform: 
 
-/home/michalbi/CLionProjects/ex2/Board.cpp
-Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
+/home/michalbi/CLionProjects/ex2/main.cpp
+iostream
+-
+src/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
+src/Game.h
+/home/michalbi/CLionProjects/ex2/src/Game.h
 
-/home/michalbi/CLionProjects/ex2/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.cpp
+cstring
+-
+Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
+
+/home/michalbi/CLionProjects/ex2/src/Board.h
 iostream
 -
 vector
 -
 Piece.h
-/home/michalbi/CLionProjects/ex2/Piece.h
+/home/michalbi/CLionProjects/ex2/src/Piece.h
 
-/home/michalbi/CLionProjects/ex2/ComputerBoard.cpp
+/home/michalbi/CLionProjects/ex2/src/ComputerBoard.cpp
 ComputerBoard.h
-/home/michalbi/CLionProjects/ex2/ComputerBoard.h
+/home/michalbi/CLionProjects/ex2/src/ComputerBoard.h
 
-/home/michalbi/CLionProjects/ex2/ComputerBoard.h
+/home/michalbi/CLionProjects/ex2/src/ComputerBoard.h
 Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
 Steps.h
-/home/michalbi/CLionProjects/ex2/Steps.h
+/home/michalbi/CLionProjects/ex2/src/Steps.h
 PlayerHuman.h
-/home/michalbi/CLionProjects/ex2/PlayerHuman.h
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
 
-/home/michalbi/CLionProjects/ex2/Game.cpp
+/home/michalbi/CLionProjects/ex2/src/Game.cpp
 Game.h
-/home/michalbi/CLionProjects/ex2/Game.h
+/home/michalbi/CLionProjects/ex2/src/Game.h
 
-/home/michalbi/CLionProjects/ex2/Game.h
+/home/michalbi/CLionProjects/ex2/src/Game.h
 Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
 Steps.h
-/home/michalbi/CLionProjects/ex2/Steps.h
+/home/michalbi/CLionProjects/ex2/src/Steps.h
 PlayerHuman.h
-/home/michalbi/CLionProjects/ex2/PlayerHuman.h
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
 ComputerBoard.h
-/home/michalbi/CLionProjects/ex2/ComputerBoard.h
+/home/michalbi/CLionProjects/ex2/src/ComputerBoard.h
 
-/home/michalbi/CLionProjects/ex2/GameLogic.h
+/home/michalbi/CLionProjects/ex2/src/GameLogic.h
 Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
 Piece.h
-/home/michalbi/CLionProjects/ex2/Piece.h
+/home/michalbi/CLionProjects/ex2/src/Piece.h
 
-/home/michalbi/CLionProjects/ex2/Piece.cpp
+/home/michalbi/CLionProjects/ex2/src/Piece.cpp
 Piece.h
-/home/michalbi/CLionProjects/ex2/Piece.h
+/home/michalbi/CLionProjects/ex2/src/Piece.h
 
-/home/michalbi/CLionProjects/ex2/Piece.h
+/home/michalbi/CLionProjects/ex2/src/Piece.h
 iostream
 -
 Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
 
-/home/michalbi/CLionProjects/ex2/Player.cpp
+/home/michalbi/CLionProjects/ex2/src/Player.cpp
 Player.h
-/home/michalbi/CLionProjects/ex2/Player.h
+/home/michalbi/CLionProjects/ex2/src/Player.h
 
-/home/michalbi/CLionProjects/ex2/Player.h
-
-/home/michalbi/CLionProjects/ex2/PlayerComputer.cpp
-PlayerComputer.h
-/home/michalbi/CLionProjects/ex2/PlayerComputer.h
-
-/home/michalbi/CLionProjects/ex2/PlayerComputer.h
-
-/home/michalbi/CLionProjects/ex2/PlayerHuman.cpp
-PlayerHuman.h
-/home/michalbi/CLionProjects/ex2/PlayerHuman.h
-
-/home/michalbi/CLionProjects/ex2/PlayerHuman.h
+/home/michalbi/CLionProjects/ex2/src/Player.h
 Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
 Steps.h
-/home/michalbi/CLionProjects/ex2/Steps.h
+/home/michalbi/CLionProjects/ex2/src/Steps.h
 
-/home/michalbi/CLionProjects/ex2/Steps.cpp
+/home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp
+
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
+Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
 Steps.h
-/home/michalbi/CLionProjects/ex2/Steps.h
+/home/michalbi/CLionProjects/ex2/src/Steps.h
 
-/home/michalbi/CLionProjects/ex2/Steps.h
+/home/michalbi/CLionProjects/ex2/src/Steps.cpp
+Steps.h
+/home/michalbi/CLionProjects/ex2/src/Steps.h
+
+/home/michalbi/CLionProjects/ex2/src/Steps.h
 GameLogic.h
-/home/michalbi/CLionProjects/ex2/GameLogic.h
-
-/home/michalbi/CLionProjects/ex2/Tests.cpp
-Tests.h
-/home/michalbi/CLionProjects/ex2/Tests.h
-PlayerHuman.h
-/home/michalbi/CLionProjects/ex2/PlayerHuman.h
-
-/home/michalbi/CLionProjects/ex2/Tests.h
-Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
-Steps.h
-/home/michalbi/CLionProjects/ex2/Steps.h
-
-/home/michalbi/CLionProjects/ex2/main.cpp
-iostream
--
-Board.h
-/home/michalbi/CLionProjects/ex2/Board.h
-Game.h
-/home/michalbi/CLionProjects/ex2/Game.h
+/home/michalbi/CLionProjects/ex2/src/GameLogic.h
 

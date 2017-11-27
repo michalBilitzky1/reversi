@@ -4,14 +4,14 @@
  *************************/
 
 #include <iostream>
-#include "Board.h"
-#include "Game.h"
+#include "src/Board.h"
+#include "src/Game.h"
 
 using namespace std;
 
 int main() {
     Board board;
-    Board board2;
-    Game game(board,board2);
+   // Board board2;
+    Game game(board);
     game.run();
 }

@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/michalbi/CLionProjects/ex2/Board.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Board.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/ComputerBoard.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/ComputerBoard.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/Game.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Game.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/Piece.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Piece.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/Player.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Player.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/PlayerComputer.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/PlayerComputer.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/PlayerHuman.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/PlayerHuman.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/Steps.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Steps.cpp.o"
-  "/home/michalbi/CLionProjects/ex2/Tests.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/Tests.cpp.o"
   "/home/michalbi/CLionProjects/ex2/main.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/main.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/Board.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/Board.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/ComputerBoard.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/Game.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/Game.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/Piece.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/Piece.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/Player.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/Player.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/Steps.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/Steps.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../lib/googletest-master/googletest/include"
+  "../lib/googletest-master/googlemock/include"
   )
 
 # Targets to which this target links.

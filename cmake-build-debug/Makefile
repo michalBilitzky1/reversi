@@ -56,6 +56,52 @@ CMAKE_BINARY_DIR = /home/michalbi/CLionProjects/ex2/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/michalbi/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/michalbi/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/michalbi/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/michalbi/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/michalbi/clion-2017.2.3/bin/cmake/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/michalbi/clion-2017.2.3/bin/cmake/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -111,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ReversiTest
+
+# Build rule for target.
+ReversiTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReversiTest
+.PHONY : ReversiTest
+
+# fast build rule for target.
+ReversiTest/fast:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/build
+.PHONY : ReversiTest/fast
+
+#=============================================================================
 # Target rules for targets named ex2
 
 # Build rule for target.
@@ -123,248 +182,111 @@ ex2/fast:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/build
 .PHONY : ex2/fast
 
-Board.o: Board.cpp.o
+#=============================================================================
+# Target rules for targets named gmock_main
 
-.PHONY : Board.o
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
 
-# target to build an object file
-Board.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Board.cpp.o
-.PHONY : Board.cpp.o
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
 
-Board.i: Board.cpp.i
+#=============================================================================
+# Target rules for targets named gmock
 
-.PHONY : Board.i
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
 
-# target to preprocess a source file
-Board.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Board.cpp.i
-.PHONY : Board.cpp.i
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
 
-Board.s: Board.cpp.s
+#=============================================================================
+# Target rules for targets named gtest_main
 
-.PHONY : Board.s
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
 
-# target to generate assembly for a file
-Board.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Board.cpp.s
-.PHONY : Board.cpp.s
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
-ComputerBoard.o: ComputerBoard.cpp.o
+#=============================================================================
+# Target rules for targets named gtest
 
-.PHONY : ComputerBoard.o
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
 
-# target to build an object file
-ComputerBoard.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ComputerBoard.cpp.o
-.PHONY : ComputerBoard.cpp.o
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
-ComputerBoard.i: ComputerBoard.cpp.i
+Tests/main_test.o: Tests/main_test.cpp.o
 
-.PHONY : ComputerBoard.i
-
-# target to preprocess a source file
-ComputerBoard.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ComputerBoard.cpp.i
-.PHONY : ComputerBoard.cpp.i
-
-ComputerBoard.s: ComputerBoard.cpp.s
-
-.PHONY : ComputerBoard.s
-
-# target to generate assembly for a file
-ComputerBoard.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ComputerBoard.cpp.s
-.PHONY : ComputerBoard.cpp.s
-
-Game.o: Game.cpp.o
-
-.PHONY : Game.o
+.PHONY : Tests/main_test.o
 
 # target to build an object file
-Game.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Game.cpp.o
-.PHONY : Game.cpp.o
+Tests/main_test.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/main_test.cpp.o
+.PHONY : Tests/main_test.cpp.o
 
-Game.i: Game.cpp.i
+Tests/main_test.i: Tests/main_test.cpp.i
 
-.PHONY : Game.i
+.PHONY : Tests/main_test.i
 
 # target to preprocess a source file
-Game.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Game.cpp.i
-.PHONY : Game.cpp.i
+Tests/main_test.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/main_test.cpp.i
+.PHONY : Tests/main_test.cpp.i
 
-Game.s: Game.cpp.s
+Tests/main_test.s: Tests/main_test.cpp.s
 
-.PHONY : Game.s
+.PHONY : Tests/main_test.s
 
 # target to generate assembly for a file
-Game.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Game.cpp.s
-.PHONY : Game.cpp.s
+Tests/main_test.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/main_test.cpp.s
+.PHONY : Tests/main_test.cpp.s
 
-Piece.o: Piece.cpp.o
+Tests/test1.o: Tests/test1.cpp.o
 
-.PHONY : Piece.o
+.PHONY : Tests/test1.o
 
 # target to build an object file
-Piece.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Piece.cpp.o
-.PHONY : Piece.cpp.o
+Tests/test1.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/test1.cpp.o
+.PHONY : Tests/test1.cpp.o
 
-Piece.i: Piece.cpp.i
+Tests/test1.i: Tests/test1.cpp.i
 
-.PHONY : Piece.i
-
-# target to preprocess a source file
-Piece.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Piece.cpp.i
-.PHONY : Piece.cpp.i
-
-Piece.s: Piece.cpp.s
-
-.PHONY : Piece.s
-
-# target to generate assembly for a file
-Piece.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Piece.cpp.s
-.PHONY : Piece.cpp.s
-
-Player.o: Player.cpp.o
-
-.PHONY : Player.o
-
-# target to build an object file
-Player.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Player.cpp.o
-.PHONY : Player.cpp.o
-
-Player.i: Player.cpp.i
-
-.PHONY : Player.i
+.PHONY : Tests/test1.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+Tests/test1.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/test1.cpp.i
+.PHONY : Tests/test1.cpp.i
 
-Player.s: Player.cpp.s
+Tests/test1.s: Tests/test1.cpp.s
 
-.PHONY : Player.s
-
-# target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Player.cpp.s
-.PHONY : Player.cpp.s
-
-PlayerComputer.o: PlayerComputer.cpp.o
-
-.PHONY : PlayerComputer.o
-
-# target to build an object file
-PlayerComputer.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerComputer.cpp.o
-.PHONY : PlayerComputer.cpp.o
-
-PlayerComputer.i: PlayerComputer.cpp.i
-
-.PHONY : PlayerComputer.i
-
-# target to preprocess a source file
-PlayerComputer.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerComputer.cpp.i
-.PHONY : PlayerComputer.cpp.i
-
-PlayerComputer.s: PlayerComputer.cpp.s
-
-.PHONY : PlayerComputer.s
+.PHONY : Tests/test1.s
 
 # target to generate assembly for a file
-PlayerComputer.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerComputer.cpp.s
-.PHONY : PlayerComputer.cpp.s
-
-PlayerHuman.o: PlayerHuman.cpp.o
-
-.PHONY : PlayerHuman.o
-
-# target to build an object file
-PlayerHuman.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerHuman.cpp.o
-.PHONY : PlayerHuman.cpp.o
-
-PlayerHuman.i: PlayerHuman.cpp.i
-
-.PHONY : PlayerHuman.i
-
-# target to preprocess a source file
-PlayerHuman.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerHuman.cpp.i
-.PHONY : PlayerHuman.cpp.i
-
-PlayerHuman.s: PlayerHuman.cpp.s
-
-.PHONY : PlayerHuman.s
-
-# target to generate assembly for a file
-PlayerHuman.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/PlayerHuman.cpp.s
-.PHONY : PlayerHuman.cpp.s
-
-Steps.o: Steps.cpp.o
-
-.PHONY : Steps.o
-
-# target to build an object file
-Steps.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Steps.cpp.o
-.PHONY : Steps.cpp.o
-
-Steps.i: Steps.cpp.i
-
-.PHONY : Steps.i
-
-# target to preprocess a source file
-Steps.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Steps.cpp.i
-.PHONY : Steps.cpp.i
-
-Steps.s: Steps.cpp.s
-
-.PHONY : Steps.s
-
-# target to generate assembly for a file
-Steps.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Steps.cpp.s
-.PHONY : Steps.cpp.s
-
-Tests.o: Tests.cpp.o
-
-.PHONY : Tests.o
-
-# target to build an object file
-Tests.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Tests.cpp.o
-.PHONY : Tests.cpp.o
-
-Tests.i: Tests.cpp.i
-
-.PHONY : Tests.i
-
-# target to preprocess a source file
-Tests.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Tests.cpp.i
-.PHONY : Tests.cpp.i
-
-Tests.s: Tests.cpp.s
-
-.PHONY : Tests.s
-
-# target to generate assembly for a file
-Tests.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/Tests.cpp.s
-.PHONY : Tests.cpp.s
+Tests/test1.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/test1.cpp.s
+.PHONY : Tests/test1.cpp.s
 
 main.o: main.cpp.o
 
@@ -393,45 +315,264 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Board.o: src/Board.cpp.o
+
+.PHONY : src/Board.o
+
+# target to build an object file
+src/Board.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Board.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.o
+.PHONY : src/Board.cpp.o
+
+src/Board.i: src/Board.cpp.i
+
+.PHONY : src/Board.i
+
+# target to preprocess a source file
+src/Board.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Board.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.i
+.PHONY : src/Board.cpp.i
+
+src/Board.s: src/Board.cpp.s
+
+.PHONY : src/Board.s
+
+# target to generate assembly for a file
+src/Board.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Board.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.s
+.PHONY : src/Board.cpp.s
+
+src/ComputerBoard.o: src/ComputerBoard.cpp.o
+
+.PHONY : src/ComputerBoard.o
+
+# target to build an object file
+src/ComputerBoard.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/ComputerBoard.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o
+.PHONY : src/ComputerBoard.cpp.o
+
+src/ComputerBoard.i: src/ComputerBoard.cpp.i
+
+.PHONY : src/ComputerBoard.i
+
+# target to preprocess a source file
+src/ComputerBoard.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/ComputerBoard.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/ComputerBoard.cpp.i
+.PHONY : src/ComputerBoard.cpp.i
+
+src/ComputerBoard.s: src/ComputerBoard.cpp.s
+
+.PHONY : src/ComputerBoard.s
+
+# target to generate assembly for a file
+src/ComputerBoard.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/ComputerBoard.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/ComputerBoard.cpp.s
+.PHONY : src/ComputerBoard.cpp.s
+
+src/Game.o: src/Game.cpp.o
+
+.PHONY : src/Game.o
+
+# target to build an object file
+src/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Game.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Game.cpp.o
+.PHONY : src/Game.cpp.o
+
+src/Game.i: src/Game.cpp.i
+
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Game.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Game.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
+src/Piece.o: src/Piece.cpp.o
+
+.PHONY : src/Piece.o
+
+# target to build an object file
+src/Piece.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Piece.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Piece.cpp.o
+.PHONY : src/Piece.cpp.o
+
+src/Piece.i: src/Piece.cpp.i
+
+.PHONY : src/Piece.i
+
+# target to preprocess a source file
+src/Piece.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Piece.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Piece.cpp.i
+.PHONY : src/Piece.cpp.i
+
+src/Piece.s: src/Piece.cpp.s
+
+.PHONY : src/Piece.s
+
+# target to generate assembly for a file
+src/Piece.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Piece.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Piece.cpp.s
+.PHONY : src/Piece.cpp.s
+
+src/Player.o: src/Player.cpp.o
+
+.PHONY : src/Player.o
+
+# target to build an object file
+src/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Player.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Player.cpp.o
+.PHONY : src/Player.cpp.o
+
+src/Player.i: src/Player.cpp.i
+
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Player.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Player.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
+
+src/PlayerComputer.o: src/PlayerComputer.cpp.o
+
+.PHONY : src/PlayerComputer.o
+
+# target to build an object file
+src/PlayerComputer.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerComputer.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o
+.PHONY : src/PlayerComputer.cpp.o
+
+src/PlayerComputer.i: src/PlayerComputer.cpp.i
+
+.PHONY : src/PlayerComputer.i
+
+# target to preprocess a source file
+src/PlayerComputer.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerComputer.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.i
+.PHONY : src/PlayerComputer.cpp.i
+
+src/PlayerComputer.s: src/PlayerComputer.cpp.s
+
+.PHONY : src/PlayerComputer.s
+
+# target to generate assembly for a file
+src/PlayerComputer.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerComputer.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.s
+.PHONY : src/PlayerComputer.cpp.s
+
+src/Steps.o: src/Steps.cpp.o
+
+.PHONY : src/Steps.o
+
+# target to build an object file
+src/Steps.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Steps.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.o
+.PHONY : src/Steps.cpp.o
+
+src/Steps.i: src/Steps.cpp.i
+
+.PHONY : src/Steps.i
+
+# target to preprocess a source file
+src/Steps.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Steps.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.i
+.PHONY : src/Steps.cpp.i
+
+src/Steps.s: src/Steps.cpp.s
+
+.PHONY : src/Steps.s
+
+# target to generate assembly for a file
+src/Steps.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Steps.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.s
+.PHONY : src/Steps.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ReversiTest"
 	@echo "... ex2"
-	@echo "... Board.o"
-	@echo "... Board.i"
-	@echo "... Board.s"
-	@echo "... ComputerBoard.o"
-	@echo "... ComputerBoard.i"
-	@echo "... ComputerBoard.s"
-	@echo "... Game.o"
-	@echo "... Game.i"
-	@echo "... Game.s"
-	@echo "... Piece.o"
-	@echo "... Piece.i"
-	@echo "... Piece.s"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
-	@echo "... PlayerComputer.o"
-	@echo "... PlayerComputer.i"
-	@echo "... PlayerComputer.s"
-	@echo "... PlayerHuman.o"
-	@echo "... PlayerHuman.i"
-	@echo "... PlayerHuman.s"
-	@echo "... Steps.o"
-	@echo "... Steps.i"
-	@echo "... Steps.s"
-	@echo "... Tests.o"
-	@echo "... Tests.i"
-	@echo "... Tests.s"
+	@echo "... gmock_main"
+	@echo "... gmock"
+	@echo "... gtest_main"
+	@echo "... gtest"
+	@echo "... Tests/main_test.o"
+	@echo "... Tests/main_test.i"
+	@echo "... Tests/main_test.s"
+	@echo "... Tests/test1.o"
+	@echo "... Tests/test1.i"
+	@echo "... Tests/test1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Board.o"
+	@echo "... src/Board.i"
+	@echo "... src/Board.s"
+	@echo "... src/ComputerBoard.o"
+	@echo "... src/ComputerBoard.i"
+	@echo "... src/ComputerBoard.s"
+	@echo "... src/Game.o"
+	@echo "... src/Game.i"
+	@echo "... src/Game.s"
+	@echo "... src/Piece.o"
+	@echo "... src/Piece.i"
+	@echo "... src/Piece.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
+	@echo "... src/PlayerComputer.o"
+	@echo "... src/PlayerComputer.i"
+	@echo "... src/PlayerComputer.s"
+	@echo "... src/Steps.o"
+	@echo "... src/Steps.i"
+	@echo "... src/Steps.s"
 .PHONY : help
 
 
