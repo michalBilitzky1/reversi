@@ -13,10 +13,10 @@ src/Board.h
 /home/michalbi/CLionProjects/ex2/src/Board.h
 src/Game.h
 /home/michalbi/CLionProjects/ex2/src/Game.h
+src/PlayerHuman.h
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
 
 /home/michalbi/CLionProjects/ex2/src/Board.cpp
-cstring
--
 Board.h
 /home/michalbi/CLionProjects/ex2/src/Board.h
 
@@ -27,18 +27,8 @@ vector
 -
 Piece.h
 /home/michalbi/CLionProjects/ex2/src/Piece.h
-
-/home/michalbi/CLionProjects/ex2/src/ComputerBoard.cpp
-ComputerBoard.h
-/home/michalbi/CLionProjects/ex2/src/ComputerBoard.h
-
-/home/michalbi/CLionProjects/ex2/src/ComputerBoard.h
-Board.h
-/home/michalbi/CLionProjects/ex2/src/Board.h
-Steps.h
-/home/michalbi/CLionProjects/ex2/src/Steps.h
-PlayerHuman.h
-/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
+Sign.h
+/home/michalbi/CLionProjects/ex2/src/Sign.h
 
 /home/michalbi/CLionProjects/ex2/src/Game.cpp
 Game.h
@@ -49,10 +39,10 @@ Board.h
 /home/michalbi/CLionProjects/ex2/src/Board.h
 Steps.h
 /home/michalbi/CLionProjects/ex2/src/Steps.h
-PlayerHuman.h
-/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
-ComputerBoard.h
-/home/michalbi/CLionProjects/ex2/src/ComputerBoard.h
+PlayerComputer.h
+/home/michalbi/CLionProjects/ex2/src/PlayerComputer.h
+Player.h
+/home/michalbi/CLionProjects/ex2/src/Player.h
 
 /home/michalbi/CLionProjects/ex2/src/GameLogic.h
 Board.h
@@ -81,12 +71,30 @@ Steps.h
 /home/michalbi/CLionProjects/ex2/src/Steps.h
 
 /home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp
+PlayerComputer.h
+/home/michalbi/CLionProjects/ex2/src/PlayerComputer.h
+
+/home/michalbi/CLionProjects/ex2/src/PlayerComputer.h
+Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
+Steps.h
+/home/michalbi/CLionProjects/ex2/src/Steps.h
+Player.h
+/home/michalbi/CLionProjects/ex2/src/Player.h
+
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.cpp
+PlayerHuman.h
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
 
 /home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
 Board.h
 /home/michalbi/CLionProjects/ex2/src/Board.h
 Steps.h
 /home/michalbi/CLionProjects/ex2/src/Steps.h
+Player.h
+/home/michalbi/CLionProjects/ex2/src/Player.h
+
+/home/michalbi/CLionProjects/ex2/src/Sign.h
 
 /home/michalbi/CLionProjects/ex2/src/Steps.cpp
 Steps.h

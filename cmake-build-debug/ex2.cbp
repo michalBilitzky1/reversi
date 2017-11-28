@@ -386,10 +386,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/main_test.cpp">
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/BoardSizeTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/test1.cpp">
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/CheckInputTest.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/ComputerMove.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/FlipTest.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/PrintOptionsTest.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/RowTest.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/WinnerTest.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/main_test.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/lib/googletest-master/googlemock/src/gmock-all.cc">
@@ -415,14 +433,6 @@
 			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Board.h">
-			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
-		</Unit>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/src/ComputerBoard.cpp">
-			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
-		</Unit>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/src/ComputerBoard.h">
 			<Option target="ReversiTest"/>
 			<Option target="ex2"/>
 		</Unit>
@@ -458,9 +468,20 @@
 			<Option target="ReversiTest"/>
 			<Option target="ex2"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerComputer.h">
+			<Option target="ReversiTest"/>
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerHuman.cpp">
+			<Option target="ReversiTest"/>
+			<Option target="ex2"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h">
 			<Option target="ReversiTest"/>
 			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Sign.h">
+			<Option target="ReversiTest"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Steps.cpp">
 			<Option target="ReversiTest"/>

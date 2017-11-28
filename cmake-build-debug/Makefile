@@ -234,6 +234,195 @@ gtest/fast:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+Tests/BoardSizeTest.o: Tests/BoardSizeTest.cpp.o
+
+.PHONY : Tests/BoardSizeTest.o
+
+# target to build an object file
+Tests/BoardSizeTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/BoardSizeTest.cpp.o
+.PHONY : Tests/BoardSizeTest.cpp.o
+
+Tests/BoardSizeTest.i: Tests/BoardSizeTest.cpp.i
+
+.PHONY : Tests/BoardSizeTest.i
+
+# target to preprocess a source file
+Tests/BoardSizeTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/BoardSizeTest.cpp.i
+.PHONY : Tests/BoardSizeTest.cpp.i
+
+Tests/BoardSizeTest.s: Tests/BoardSizeTest.cpp.s
+
+.PHONY : Tests/BoardSizeTest.s
+
+# target to generate assembly for a file
+Tests/BoardSizeTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/BoardSizeTest.cpp.s
+.PHONY : Tests/BoardSizeTest.cpp.s
+
+Tests/CheckInputTest.o: Tests/CheckInputTest.cpp.o
+
+.PHONY : Tests/CheckInputTest.o
+
+# target to build an object file
+Tests/CheckInputTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/CheckInputTest.cpp.o
+.PHONY : Tests/CheckInputTest.cpp.o
+
+Tests/CheckInputTest.i: Tests/CheckInputTest.cpp.i
+
+.PHONY : Tests/CheckInputTest.i
+
+# target to preprocess a source file
+Tests/CheckInputTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/CheckInputTest.cpp.i
+.PHONY : Tests/CheckInputTest.cpp.i
+
+Tests/CheckInputTest.s: Tests/CheckInputTest.cpp.s
+
+.PHONY : Tests/CheckInputTest.s
+
+# target to generate assembly for a file
+Tests/CheckInputTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/CheckInputTest.cpp.s
+.PHONY : Tests/CheckInputTest.cpp.s
+
+Tests/ComputerMove.o: Tests/ComputerMove.cpp.o
+
+.PHONY : Tests/ComputerMove.o
+
+# target to build an object file
+Tests/ComputerMove.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/ComputerMove.cpp.o
+.PHONY : Tests/ComputerMove.cpp.o
+
+Tests/ComputerMove.i: Tests/ComputerMove.cpp.i
+
+.PHONY : Tests/ComputerMove.i
+
+# target to preprocess a source file
+Tests/ComputerMove.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/ComputerMove.cpp.i
+.PHONY : Tests/ComputerMove.cpp.i
+
+Tests/ComputerMove.s: Tests/ComputerMove.cpp.s
+
+.PHONY : Tests/ComputerMove.s
+
+# target to generate assembly for a file
+Tests/ComputerMove.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/ComputerMove.cpp.s
+.PHONY : Tests/ComputerMove.cpp.s
+
+Tests/FlipTest.o: Tests/FlipTest.cpp.o
+
+.PHONY : Tests/FlipTest.o
+
+# target to build an object file
+Tests/FlipTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/FlipTest.cpp.o
+.PHONY : Tests/FlipTest.cpp.o
+
+Tests/FlipTest.i: Tests/FlipTest.cpp.i
+
+.PHONY : Tests/FlipTest.i
+
+# target to preprocess a source file
+Tests/FlipTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/FlipTest.cpp.i
+.PHONY : Tests/FlipTest.cpp.i
+
+Tests/FlipTest.s: Tests/FlipTest.cpp.s
+
+.PHONY : Tests/FlipTest.s
+
+# target to generate assembly for a file
+Tests/FlipTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/FlipTest.cpp.s
+.PHONY : Tests/FlipTest.cpp.s
+
+Tests/PrintOptionsTest.o: Tests/PrintOptionsTest.cpp.o
+
+.PHONY : Tests/PrintOptionsTest.o
+
+# target to build an object file
+Tests/PrintOptionsTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/PrintOptionsTest.cpp.o
+.PHONY : Tests/PrintOptionsTest.cpp.o
+
+Tests/PrintOptionsTest.i: Tests/PrintOptionsTest.cpp.i
+
+.PHONY : Tests/PrintOptionsTest.i
+
+# target to preprocess a source file
+Tests/PrintOptionsTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/PrintOptionsTest.cpp.i
+.PHONY : Tests/PrintOptionsTest.cpp.i
+
+Tests/PrintOptionsTest.s: Tests/PrintOptionsTest.cpp.s
+
+.PHONY : Tests/PrintOptionsTest.s
+
+# target to generate assembly for a file
+Tests/PrintOptionsTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/PrintOptionsTest.cpp.s
+.PHONY : Tests/PrintOptionsTest.cpp.s
+
+Tests/RowTest.o: Tests/RowTest.cpp.o
+
+.PHONY : Tests/RowTest.o
+
+# target to build an object file
+Tests/RowTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/RowTest.cpp.o
+.PHONY : Tests/RowTest.cpp.o
+
+Tests/RowTest.i: Tests/RowTest.cpp.i
+
+.PHONY : Tests/RowTest.i
+
+# target to preprocess a source file
+Tests/RowTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/RowTest.cpp.i
+.PHONY : Tests/RowTest.cpp.i
+
+Tests/RowTest.s: Tests/RowTest.cpp.s
+
+.PHONY : Tests/RowTest.s
+
+# target to generate assembly for a file
+Tests/RowTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/RowTest.cpp.s
+.PHONY : Tests/RowTest.cpp.s
+
+Tests/WinnerTest.o: Tests/WinnerTest.cpp.o
+
+.PHONY : Tests/WinnerTest.o
+
+# target to build an object file
+Tests/WinnerTest.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/WinnerTest.cpp.o
+.PHONY : Tests/WinnerTest.cpp.o
+
+Tests/WinnerTest.i: Tests/WinnerTest.cpp.i
+
+.PHONY : Tests/WinnerTest.i
+
+# target to preprocess a source file
+Tests/WinnerTest.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/WinnerTest.cpp.i
+.PHONY : Tests/WinnerTest.cpp.i
+
+Tests/WinnerTest.s: Tests/WinnerTest.cpp.s
+
+.PHONY : Tests/WinnerTest.s
+
+# target to generate assembly for a file
+Tests/WinnerTest.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/WinnerTest.cpp.s
+.PHONY : Tests/WinnerTest.cpp.s
+
 Tests/main_test.o: Tests/main_test.cpp.o
 
 .PHONY : Tests/main_test.o
@@ -260,33 +449,6 @@ Tests/main_test.s: Tests/main_test.cpp.s
 Tests/main_test.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/main_test.cpp.s
 .PHONY : Tests/main_test.cpp.s
-
-Tests/test1.o: Tests/test1.cpp.o
-
-.PHONY : Tests/test1.o
-
-# target to build an object file
-Tests/test1.cpp.o:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/test1.cpp.o
-.PHONY : Tests/test1.cpp.o
-
-Tests/test1.i: Tests/test1.cpp.i
-
-.PHONY : Tests/test1.i
-
-# target to preprocess a source file
-Tests/test1.cpp.i:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/test1.cpp.i
-.PHONY : Tests/test1.cpp.i
-
-Tests/test1.s: Tests/test1.cpp.s
-
-.PHONY : Tests/test1.s
-
-# target to generate assembly for a file
-Tests/test1.cpp.s:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/test1.cpp.s
-.PHONY : Tests/test1.cpp.s
 
 main.o: main.cpp.o
 
@@ -344,36 +506,6 @@ src/Board.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Board.cpp.s
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.s
 .PHONY : src/Board.cpp.s
-
-src/ComputerBoard.o: src/ComputerBoard.cpp.o
-
-.PHONY : src/ComputerBoard.o
-
-# target to build an object file
-src/ComputerBoard.cpp.o:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/ComputerBoard.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/ComputerBoard.cpp.o
-.PHONY : src/ComputerBoard.cpp.o
-
-src/ComputerBoard.i: src/ComputerBoard.cpp.i
-
-.PHONY : src/ComputerBoard.i
-
-# target to preprocess a source file
-src/ComputerBoard.cpp.i:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/ComputerBoard.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/ComputerBoard.cpp.i
-.PHONY : src/ComputerBoard.cpp.i
-
-src/ComputerBoard.s: src/ComputerBoard.cpp.s
-
-.PHONY : src/ComputerBoard.s
-
-# target to generate assembly for a file
-src/ComputerBoard.cpp.s:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/ComputerBoard.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/ComputerBoard.cpp.s
-.PHONY : src/ComputerBoard.cpp.s
 
 src/Game.o: src/Game.cpp.o
 
@@ -495,6 +627,36 @@ src/PlayerComputer.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.s
 .PHONY : src/PlayerComputer.cpp.s
 
+src/PlayerHuman.o: src/PlayerHuman.cpp.o
+
+.PHONY : src/PlayerHuman.o
+
+# target to build an object file
+src/PlayerHuman.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerHuman.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerHuman.cpp.o
+.PHONY : src/PlayerHuman.cpp.o
+
+src/PlayerHuman.i: src/PlayerHuman.cpp.i
+
+.PHONY : src/PlayerHuman.i
+
+# target to preprocess a source file
+src/PlayerHuman.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerHuman.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerHuman.cpp.i
+.PHONY : src/PlayerHuman.cpp.i
+
+src/PlayerHuman.s: src/PlayerHuman.cpp.s
+
+.PHONY : src/PlayerHuman.s
+
+# target to generate assembly for a file
+src/PlayerHuman.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerHuman.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerHuman.cpp.s
+.PHONY : src/PlayerHuman.cpp.s
+
 src/Steps.o: src/Steps.cpp.o
 
 .PHONY : src/Steps.o
@@ -543,21 +705,36 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... Tests/BoardSizeTest.o"
+	@echo "... Tests/BoardSizeTest.i"
+	@echo "... Tests/BoardSizeTest.s"
+	@echo "... Tests/CheckInputTest.o"
+	@echo "... Tests/CheckInputTest.i"
+	@echo "... Tests/CheckInputTest.s"
+	@echo "... Tests/ComputerMove.o"
+	@echo "... Tests/ComputerMove.i"
+	@echo "... Tests/ComputerMove.s"
+	@echo "... Tests/FlipTest.o"
+	@echo "... Tests/FlipTest.i"
+	@echo "... Tests/FlipTest.s"
+	@echo "... Tests/PrintOptionsTest.o"
+	@echo "... Tests/PrintOptionsTest.i"
+	@echo "... Tests/PrintOptionsTest.s"
+	@echo "... Tests/RowTest.o"
+	@echo "... Tests/RowTest.i"
+	@echo "... Tests/RowTest.s"
+	@echo "... Tests/WinnerTest.o"
+	@echo "... Tests/WinnerTest.i"
+	@echo "... Tests/WinnerTest.s"
 	@echo "... Tests/main_test.o"
 	@echo "... Tests/main_test.i"
 	@echo "... Tests/main_test.s"
-	@echo "... Tests/test1.o"
-	@echo "... Tests/test1.i"
-	@echo "... Tests/test1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... src/Board.o"
 	@echo "... src/Board.i"
 	@echo "... src/Board.s"
-	@echo "... src/ComputerBoard.o"
-	@echo "... src/ComputerBoard.i"
-	@echo "... src/ComputerBoard.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
@@ -570,6 +747,9 @@ help:
 	@echo "... src/PlayerComputer.o"
 	@echo "... src/PlayerComputer.i"
 	@echo "... src/PlayerComputer.s"
+	@echo "... src/PlayerHuman.o"
+	@echo "... src/PlayerHuman.i"
+	@echo "... src/PlayerHuman.s"
 	@echo "... src/Steps.o"
 	@echo "... src/Steps.i"
 	@echo "... src/Steps.s"

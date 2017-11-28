@@ -1,6 +1,9 @@
-//
-// Created by michalbi on 27/11/17.
-//
+/*************************
+ * name: Michal Bilitzky,
+ *       Miri Asher
+ * id:205419849
+ *    205891492
+ *************************/
 
 #include "gtest/gtest.h"
 
