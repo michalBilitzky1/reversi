@@ -21,7 +21,7 @@ void PlayerHuman::playHuman() {
     Piece piece(0, 0);
     board->initializeBoard();
     board->printBoard();
-    while (player.checkHaveMove(steps.getVec())) {
+    while (player.checkHaveMove(steps.getVec())) {//when the player have moves.
         int flag = 0;
         player.printWhoQueue(x);
         steps.optionsToLocate(x);
@@ -29,7 +29,7 @@ void PlayerHuman::playHuman() {
         if (ans == 1) {
             piece = player.chosenMove();
             choice = player.checkInput(piece, steps.getVec());
-            while (!choice) {
+            while (!choice) {// if the player chose something that isn't among the options.
                 cout << "Your choice is'n an options.Choose move from the list." << endl;
                 steps.printOptions();
                 piece = player.chosenMove();
@@ -41,7 +41,7 @@ void PlayerHuman::playHuman() {
             steps.clearVec();
 
         } else {
-            cout << "No possible moves." << endl;
+            cout << "No possible moves." << endl;// if the player has no moves.
             flag++;
         }
         player.printWhoQueue(o);

@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/michalbi/CLionProjects/ex2/main.cpp
-iostream
--
-src/Board.h
-/home/michalbi/CLionProjects/ex2/src/Board.h
-src/Game.h
-/home/michalbi/CLionProjects/ex2/src/Game.h
-src/PlayerHuman.h
-/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
-
 /home/michalbi/CLionProjects/ex2/src/Board.cpp
 Board.h
 /home/michalbi/CLionProjects/ex2/src/Board.h
@@ -103,4 +93,14 @@ Steps.h
 /home/michalbi/CLionProjects/ex2/src/Steps.h
 GameLogic.h
 /home/michalbi/CLionProjects/ex2/src/GameLogic.h
+
+/home/michalbi/CLionProjects/ex2/src/main.cpp
+iostream
+-
+Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
+Game.h
+/home/michalbi/CLionProjects/ex2/src/Game.h
+PlayerHuman.h
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
 

@@ -10,6 +10,7 @@
 #include "../src/Game.h"
 
 TEST(CheckInputTest, sadsa) {
+    // check if the user chose a legal move.
     Board board(8);
     Steps steps(board);
     Player player(board, steps);

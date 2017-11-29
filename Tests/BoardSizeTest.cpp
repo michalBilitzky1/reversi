@@ -9,6 +9,7 @@
 #include "../src/Board.h"
 
 TEST(BoardSizeTest, sadsa) {
+    //check the number of rows according to the given size.
     Board board(6);
     EXPECT_EQ(6, board.getRowBoard());
 }

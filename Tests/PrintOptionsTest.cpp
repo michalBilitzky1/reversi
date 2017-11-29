@@ -10,7 +10,7 @@
 #include "../src/Game.h"
 
 TEST(PrintOptionsTest, sadsa) {
-
+// check if the options offered to the player are the right options.
     Board boardReal(8);
     Steps steps(boardReal);
     Player player(boardReal, steps);

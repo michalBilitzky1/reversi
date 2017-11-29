@@ -315,33 +315,6 @@ Tests/ComputerMove.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/ComputerMove.cpp.s
 .PHONY : Tests/ComputerMove.cpp.s
 
-Tests/FlipTest.o: Tests/FlipTest.cpp.o
-
-.PHONY : Tests/FlipTest.o
-
-# target to build an object file
-Tests/FlipTest.cpp.o:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/FlipTest.cpp.o
-.PHONY : Tests/FlipTest.cpp.o
-
-Tests/FlipTest.i: Tests/FlipTest.cpp.i
-
-.PHONY : Tests/FlipTest.i
-
-# target to preprocess a source file
-Tests/FlipTest.cpp.i:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/FlipTest.cpp.i
-.PHONY : Tests/FlipTest.cpp.i
-
-Tests/FlipTest.s: Tests/FlipTest.cpp.s
-
-.PHONY : Tests/FlipTest.s
-
-# target to generate assembly for a file
-Tests/FlipTest.cpp.s:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/FlipTest.cpp.s
-.PHONY : Tests/FlipTest.cpp.s
-
 Tests/PrintOptionsTest.o: Tests/PrintOptionsTest.cpp.o
 
 .PHONY : Tests/PrintOptionsTest.o
@@ -687,6 +660,36 @@ src/Steps.cpp.s:
 	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.s
 .PHONY : src/Steps.cpp.s
 
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -714,9 +717,6 @@ help:
 	@echo "... Tests/ComputerMove.o"
 	@echo "... Tests/ComputerMove.i"
 	@echo "... Tests/ComputerMove.s"
-	@echo "... Tests/FlipTest.o"
-	@echo "... Tests/FlipTest.i"
-	@echo "... Tests/FlipTest.s"
 	@echo "... Tests/PrintOptionsTest.o"
 	@echo "... Tests/PrintOptionsTest.i"
 	@echo "... Tests/PrintOptionsTest.s"
@@ -753,6 +753,9 @@ help:
 	@echo "... src/Steps.o"
 	@echo "... src/Steps.i"
 	@echo "... src/Steps.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

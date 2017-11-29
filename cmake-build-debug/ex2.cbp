@@ -395,9 +395,6 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/ComputerMove.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/FlipTest.cpp">
-			<Option target="ReversiTest"/>
-		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/PrintOptionsTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
@@ -488,6 +485,10 @@
 			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Steps.h">
+			<Option target="ReversiTest"/>
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/main.cpp">
 			<Option target="ReversiTest"/>
 			<Option target="ex2"/>
 		</Unit>

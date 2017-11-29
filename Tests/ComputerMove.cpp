@@ -9,6 +9,7 @@
 #include "../src/Game.h"
 
 TEST(ComputerMove, sadsa) {
+    // check if the computer chose the most worthy move.
     Board board(8);
     Steps steps(board);
     Player player(board, steps);

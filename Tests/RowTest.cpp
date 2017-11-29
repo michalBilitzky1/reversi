@@ -9,6 +9,7 @@
 #include "../src/Board.h"
 
 TEST(test1, sadsa) {
+    //check the number of cols according to the given size.
     Board board(8);
     board.getRowBoard();
     EXPECT_EQ(8, board.getRowBoard());

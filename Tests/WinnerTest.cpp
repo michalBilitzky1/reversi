@@ -10,6 +10,7 @@
 #include "../src/Game.h"
 
 TEST(Winner, sadsa) {
+    //check if declares the winner
     Board board(6);
     Steps steps(board);
     Player player(board, steps);

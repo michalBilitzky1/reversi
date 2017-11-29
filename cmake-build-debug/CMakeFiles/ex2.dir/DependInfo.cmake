@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o"
   "/home/michalbi/CLionProjects/ex2/src/PlayerHuman.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/PlayerHuman.cpp.o"
   "/home/michalbi/CLionProjects/ex2/src/Steps.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/Steps.cpp.o"
+  "/home/michalbi/CLionProjects/ex2/src/main.cpp" "/home/michalbi/CLionProjects/ex2/cmake-build-debug/CMakeFiles/ex2.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
