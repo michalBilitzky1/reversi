@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/michalbi/CLionProjects/ex2/main.cpp
+iostream
+-
+src/Board.h
+/home/michalbi/CLionProjects/ex2/src/Board.h
+src/Game.h
+/home/michalbi/CLionProjects/ex2/src/Game.h
+
 /home/michalbi/CLionProjects/ex2/src/Board.cpp
 Board.h
 /home/michalbi/CLionProjects/ex2/src/Board.h
@@ -33,6 +41,8 @@ PlayerComputer.h
 /home/michalbi/CLionProjects/ex2/src/PlayerComputer.h
 Player.h
 /home/michalbi/CLionProjects/ex2/src/Player.h
+PlayerHuman.h
+/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h
 
 /home/michalbi/CLionProjects/ex2/src/GameLogic.h
 Board.h
