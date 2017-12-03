@@ -1,9 +1,3 @@
-/*************************
- * name: Michal Bilitzky,
- *       Miri Asher
- * id:205419849
- *    205891492
- *************************/
 #ifndef EX2_PLAYERHUMAN_H
 #define EX2_PLAYERHUMAN_H
 
@@ -24,9 +18,15 @@ public:
     **********************************/
     PlayerHuman(Board &board);
 
-
-
-    void playHuman();
+    /************************************
+     * play one turn of computer player.
+     * @param player
+     * @param player1
+     * @param steps
+     * @param flag
+     * @return
+     ************************************/
+    int playOneTurn(char player,Player player1, Steps steps,int flag);
 
 };
 
@@ -34,5 +34,4 @@ public:
 
 
 
-
-#endif //EX2_PLAYERHUMAN_H
+#endif //EX2_GAMELOGIC_H

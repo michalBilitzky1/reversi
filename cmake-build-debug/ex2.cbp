@@ -422,75 +422,56 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/lib/googletest-master/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/main.cpp">
-			<Option target="ex2"/>
-		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Board.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Board.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Game.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Game.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/GameLogic.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Piece.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Piece.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Player.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Player.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerComputer.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerComputer.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerHuman.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Sign.h">
 			<Option target="ReversiTest"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Steps.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Steps.h">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/main.cpp">
 			<Option target="ReversiTest"/>
-			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

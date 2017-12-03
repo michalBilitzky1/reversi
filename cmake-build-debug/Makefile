@@ -423,33 +423,6 @@ Tests/main_test.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/main_test.cpp.s
 .PHONY : Tests/main_test.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 src/Board.o: src/Board.cpp.o
 
 .PHONY : src/Board.o
@@ -457,7 +430,6 @@ src/Board.o: src/Board.cpp.o
 # target to build an object file
 src/Board.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Board.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.o
 .PHONY : src/Board.cpp.o
 
 src/Board.i: src/Board.cpp.i
@@ -467,7 +439,6 @@ src/Board.i: src/Board.cpp.i
 # target to preprocess a source file
 src/Board.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Board.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.i
 .PHONY : src/Board.cpp.i
 
 src/Board.s: src/Board.cpp.s
@@ -477,7 +448,6 @@ src/Board.s: src/Board.cpp.s
 # target to generate assembly for a file
 src/Board.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Board.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Board.cpp.s
 .PHONY : src/Board.cpp.s
 
 src/Game.o: src/Game.cpp.o
@@ -487,7 +457,6 @@ src/Game.o: src/Game.cpp.o
 # target to build an object file
 src/Game.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Game.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Game.cpp.o
 .PHONY : src/Game.cpp.o
 
 src/Game.i: src/Game.cpp.i
@@ -497,7 +466,6 @@ src/Game.i: src/Game.cpp.i
 # target to preprocess a source file
 src/Game.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Game.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Game.cpp.i
 .PHONY : src/Game.cpp.i
 
 src/Game.s: src/Game.cpp.s
@@ -507,7 +475,6 @@ src/Game.s: src/Game.cpp.s
 # target to generate assembly for a file
 src/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Game.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
 src/Piece.o: src/Piece.cpp.o
@@ -517,7 +484,6 @@ src/Piece.o: src/Piece.cpp.o
 # target to build an object file
 src/Piece.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Piece.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Piece.cpp.o
 .PHONY : src/Piece.cpp.o
 
 src/Piece.i: src/Piece.cpp.i
@@ -527,7 +493,6 @@ src/Piece.i: src/Piece.cpp.i
 # target to preprocess a source file
 src/Piece.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Piece.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Piece.cpp.i
 .PHONY : src/Piece.cpp.i
 
 src/Piece.s: src/Piece.cpp.s
@@ -537,7 +502,6 @@ src/Piece.s: src/Piece.cpp.s
 # target to generate assembly for a file
 src/Piece.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Piece.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Piece.cpp.s
 .PHONY : src/Piece.cpp.s
 
 src/Player.o: src/Player.cpp.o
@@ -547,7 +511,6 @@ src/Player.o: src/Player.cpp.o
 # target to build an object file
 src/Player.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Player.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Player.cpp.o
 .PHONY : src/Player.cpp.o
 
 src/Player.i: src/Player.cpp.i
@@ -557,7 +520,6 @@ src/Player.i: src/Player.cpp.i
 # target to preprocess a source file
 src/Player.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Player.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Player.cpp.i
 .PHONY : src/Player.cpp.i
 
 src/Player.s: src/Player.cpp.s
@@ -567,7 +529,6 @@ src/Player.s: src/Player.cpp.s
 # target to generate assembly for a file
 src/Player.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Player.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
 src/PlayerComputer.o: src/PlayerComputer.cpp.o
@@ -577,7 +538,6 @@ src/PlayerComputer.o: src/PlayerComputer.cpp.o
 # target to build an object file
 src/PlayerComputer.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerComputer.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.o
 .PHONY : src/PlayerComputer.cpp.o
 
 src/PlayerComputer.i: src/PlayerComputer.cpp.i
@@ -587,7 +547,6 @@ src/PlayerComputer.i: src/PlayerComputer.cpp.i
 # target to preprocess a source file
 src/PlayerComputer.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerComputer.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.i
 .PHONY : src/PlayerComputer.cpp.i
 
 src/PlayerComputer.s: src/PlayerComputer.cpp.s
@@ -597,7 +556,6 @@ src/PlayerComputer.s: src/PlayerComputer.cpp.s
 # target to generate assembly for a file
 src/PlayerComputer.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerComputer.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerComputer.cpp.s
 .PHONY : src/PlayerComputer.cpp.s
 
 src/PlayerHuman.o: src/PlayerHuman.cpp.o
@@ -607,7 +565,6 @@ src/PlayerHuman.o: src/PlayerHuman.cpp.o
 # target to build an object file
 src/PlayerHuman.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerHuman.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerHuman.cpp.o
 .PHONY : src/PlayerHuman.cpp.o
 
 src/PlayerHuman.i: src/PlayerHuman.cpp.i
@@ -617,7 +574,6 @@ src/PlayerHuman.i: src/PlayerHuman.cpp.i
 # target to preprocess a source file
 src/PlayerHuman.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerHuman.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerHuman.cpp.i
 .PHONY : src/PlayerHuman.cpp.i
 
 src/PlayerHuman.s: src/PlayerHuman.cpp.s
@@ -627,7 +583,6 @@ src/PlayerHuman.s: src/PlayerHuman.cpp.s
 # target to generate assembly for a file
 src/PlayerHuman.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerHuman.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/PlayerHuman.cpp.s
 .PHONY : src/PlayerHuman.cpp.s
 
 src/Steps.o: src/Steps.cpp.o
@@ -637,7 +592,6 @@ src/Steps.o: src/Steps.cpp.o
 # target to build an object file
 src/Steps.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Steps.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.o
 .PHONY : src/Steps.cpp.o
 
 src/Steps.i: src/Steps.cpp.i
@@ -647,7 +601,6 @@ src/Steps.i: src/Steps.cpp.i
 # target to preprocess a source file
 src/Steps.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Steps.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.i
 .PHONY : src/Steps.cpp.i
 
 src/Steps.s: src/Steps.cpp.s
@@ -657,7 +610,6 @@ src/Steps.s: src/Steps.cpp.s
 # target to generate assembly for a file
 src/Steps.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Steps.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/Steps.cpp.s
 .PHONY : src/Steps.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -667,7 +619,6 @@ src/main.o: src/main.cpp.o
 # target to build an object file
 src/main.cpp.o:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.o
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -677,7 +628,6 @@ src/main.i: src/main.cpp.i
 # target to preprocess a source file
 src/main.cpp.i:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.i
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -687,7 +637,6 @@ src/main.s: src/main.cpp.s
 # target to generate assembly for a file
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.s
-	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -729,9 +678,6 @@ help:
 	@echo "... Tests/main_test.o"
 	@echo "... Tests/main_test.i"
 	@echo "... Tests/main_test.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... src/Board.o"
 	@echo "... src/Board.i"
 	@echo "... src/Board.s"

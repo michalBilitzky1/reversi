@@ -8,6 +8,7 @@
 #include <gtest/gtest.h>
 #include "../src/Board.h"
 #include "../src/Game.h"
+#include "../src/main.cpp"
 
 TEST(CheckInputTest, sadsa) {
     // check if the user chose a legal move.

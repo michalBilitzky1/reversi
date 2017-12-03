@@ -1,4 +1,15 @@
 /home/michalbi/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/michalbi/CLionProjects/ex2
 -- Configuring done
+CMake Error at CMakeLists.txt:15 (add_executable):
+  Cannot find source file:
+
+    main.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: ex2
+CMake Error: Cannot determine link language for target "ex2".
 -- Generating done
 -- Build files have been written to: /home/michalbi/CLionProjects/ex2/cmake-build-debug
