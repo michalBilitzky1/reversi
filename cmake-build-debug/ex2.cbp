@@ -428,6 +428,12 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Board.h">
 			<Option target="ReversiTest"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Client.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Client.h">
+			<Option target="ReversiTest"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Game.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
