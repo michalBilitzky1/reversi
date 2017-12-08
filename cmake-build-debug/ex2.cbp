@@ -485,6 +485,12 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/main.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/noUse.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/noUse.h">
+			<Option target="ReversiTest"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

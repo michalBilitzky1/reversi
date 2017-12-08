@@ -693,6 +693,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/noUse.o: src/noUse.cpp.o
+
+.PHONY : src/noUse.o
+
+# target to build an object file
+src/noUse.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/noUse.cpp.o
+.PHONY : src/noUse.cpp.o
+
+src/noUse.i: src/noUse.cpp.i
+
+.PHONY : src/noUse.i
+
+# target to preprocess a source file
+src/noUse.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/noUse.cpp.i
+.PHONY : src/noUse.cpp.i
+
+src/noUse.s: src/noUse.cpp.s
+
+.PHONY : src/noUse.s
+
+# target to generate assembly for a file
+src/noUse.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/noUse.cpp.s
+.PHONY : src/noUse.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -762,6 +789,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/noUse.o"
+	@echo "... src/noUse.i"
+	@echo "... src/noUse.s"
 .PHONY : help
 
 
