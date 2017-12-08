@@ -342,6 +342,33 @@ Tests/PrintOptionsTest.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/PrintOptionsTest.cpp.s
 .PHONY : Tests/PrintOptionsTest.cpp.s
 
+Tests/ReadMove.o: Tests/ReadMove.cpp.o
+
+.PHONY : Tests/ReadMove.o
+
+# target to build an object file
+Tests/ReadMove.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/ReadMove.cpp.o
+.PHONY : Tests/ReadMove.cpp.o
+
+Tests/ReadMove.i: Tests/ReadMove.cpp.i
+
+.PHONY : Tests/ReadMove.i
+
+# target to preprocess a source file
+Tests/ReadMove.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/ReadMove.cpp.i
+.PHONY : Tests/ReadMove.cpp.i
+
+Tests/ReadMove.s: Tests/ReadMove.cpp.s
+
+.PHONY : Tests/ReadMove.s
+
+# target to generate assembly for a file
+Tests/ReadMove.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/ReadMove.cpp.s
+.PHONY : Tests/ReadMove.cpp.s
+
 Tests/RowTest.o: Tests/RowTest.cpp.o
 
 .PHONY : Tests/RowTest.o
@@ -395,6 +422,33 @@ Tests/WinnerTest.s: Tests/WinnerTest.cpp.s
 Tests/WinnerTest.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/WinnerTest.cpp.s
 .PHONY : Tests/WinnerTest.cpp.s
+
+Tests/checkClientMove.o: Tests/checkClientMove.cpp.o
+
+.PHONY : Tests/checkClientMove.o
+
+# target to build an object file
+Tests/checkClientMove.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/checkClientMove.cpp.o
+.PHONY : Tests/checkClientMove.cpp.o
+
+Tests/checkClientMove.i: Tests/checkClientMove.cpp.i
+
+.PHONY : Tests/checkClientMove.i
+
+# target to preprocess a source file
+Tests/checkClientMove.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/checkClientMove.cpp.i
+.PHONY : Tests/checkClientMove.cpp.i
+
+Tests/checkClientMove.s: Tests/checkClientMove.cpp.s
+
+.PHONY : Tests/checkClientMove.s
+
+# target to generate assembly for a file
+Tests/checkClientMove.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/checkClientMove.cpp.s
+.PHONY : Tests/checkClientMove.cpp.s
 
 Tests/main_test.o: Tests/main_test.cpp.o
 
@@ -750,12 +804,18 @@ help:
 	@echo "... Tests/PrintOptionsTest.o"
 	@echo "... Tests/PrintOptionsTest.i"
 	@echo "... Tests/PrintOptionsTest.s"
+	@echo "... Tests/ReadMove.o"
+	@echo "... Tests/ReadMove.i"
+	@echo "... Tests/ReadMove.s"
 	@echo "... Tests/RowTest.o"
 	@echo "... Tests/RowTest.i"
 	@echo "... Tests/RowTest.s"
 	@echo "... Tests/WinnerTest.o"
 	@echo "... Tests/WinnerTest.i"
 	@echo "... Tests/WinnerTest.s"
+	@echo "... Tests/checkClientMove.o"
+	@echo "... Tests/checkClientMove.i"
+	@echo "... Tests/checkClientMove.s"
 	@echo "... Tests/main_test.o"
 	@echo "... Tests/main_test.i"
 	@echo "... Tests/main_test.s"

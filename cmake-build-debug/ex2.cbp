@@ -398,10 +398,16 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/PrintOptionsTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/ReadMove.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/RowTest.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/WinnerTest.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/checkClientMove.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/main_test.cpp">
