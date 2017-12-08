@@ -612,6 +612,33 @@ src/PlayerHuman.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/PlayerHuman.cpp.s
 .PHONY : src/PlayerHuman.cpp.s
 
+src/RemotePlayer.o: src/RemotePlayer.cpp.o
+
+.PHONY : src/RemotePlayer.o
+
+# target to build an object file
+src/RemotePlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/RemotePlayer.cpp.o
+.PHONY : src/RemotePlayer.cpp.o
+
+src/RemotePlayer.i: src/RemotePlayer.cpp.i
+
+.PHONY : src/RemotePlayer.i
+
+# target to preprocess a source file
+src/RemotePlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/RemotePlayer.cpp.i
+.PHONY : src/RemotePlayer.cpp.i
+
+src/RemotePlayer.s: src/RemotePlayer.cpp.s
+
+.PHONY : src/RemotePlayer.s
+
+# target to generate assembly for a file
+src/RemotePlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/RemotePlayer.cpp.s
+.PHONY : src/RemotePlayer.cpp.s
+
 src/Steps.o: src/Steps.cpp.o
 
 .PHONY : src/Steps.o
@@ -726,6 +753,9 @@ help:
 	@echo "... src/PlayerHuman.o"
 	@echo "... src/PlayerHuman.i"
 	@echo "... src/PlayerHuman.s"
+	@echo "... src/RemotePlayer.o"
+	@echo "... src/RemotePlayer.i"
+	@echo "... src/RemotePlayer.s"
 	@echo "... src/Steps.o"
 	@echo "... src/Steps.i"
 	@echo "... src/Steps.s"

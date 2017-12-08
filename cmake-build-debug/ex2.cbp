@@ -467,6 +467,12 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/PlayerHuman.h">
 			<Option target="ReversiTest"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/RemotePlayer.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/RemotePlayer.h">
+			<Option target="ReversiTest"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Sign.h">
 			<Option target="ReversiTest"/>
 		</Unit>
