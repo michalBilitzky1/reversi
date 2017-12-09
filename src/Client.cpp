@@ -1,7 +1,4 @@
 #include "Client.h"
-#include "Player.h"
-#include "PlayerHuman.h"
-#include<iostream>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
@@ -13,7 +10,8 @@
 using namespace std;
 
 Client::Client(const char *serverIP, int serverPort,Board &board):board(&board),
-                                                                  serverIP(serverIP),serverPort(serverPort),
+                                                                  serverIP(serverIP),
+                                                                  serverPort(serverPort),
                                                                   clientSocket(0){
     cout <<"Client"<<endl;
 }
@@ -56,30 +54,27 @@ void Client::connectToServer() {
 
 }
 
-void Client::sendExercise(int arg1,int arg2){
-    // Write the exercise arguments to the socket
-    int n = write(clientSocket , &arg1,sizeof(arg1));
+void Client::sendMove(int row, int col){
+    // Write the move arguments to the socket
+    int n = write(clientSocket , &row,sizeof(row));
     if(n ==-1){
-        throw "Error writing arg1cli to socket";
+        throw "Error writing row to socket";
     }
-    n = write(clientSocket , &arg2,sizeof(arg2));
+    n = write(clientSocket , &col,sizeof(col));
     if(n ==-1){
-        throw "Error writing arg2cli to socket";
+        throw "Error writing col to socket";
     }
-   // cout<<"1"<<arg1<<endl;
-   // cout<<"2"<<arg2<<endl;
-
 }
 
+
 Piece Client::clientMove(Client client) {
-    board->printBoard();
     int num1, num2;
     char op;
     try{
         cout << "Enter an move (x,y):";
         cin >> num1 >> op >> num2;
         cout << "Sending choice: " << num1 << op << num2 << endl;
-        client.sendExercise(num1, num2);
+        client.sendMove(num1, num2);
     }
     catch (const char *msg) {
         cout << "Failed to send exercise to server. Reason: " << msg << endl;
@@ -93,7 +88,6 @@ int Client::getSocket(){
     return this->clientSocket;
 }
 
-char Client::getPlayer(char player){
+char Client::getPlayer(char player) {
     return player;
 }
-

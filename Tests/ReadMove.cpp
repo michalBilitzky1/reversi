@@ -11,7 +11,7 @@ TEST(ReadMove, sadsa){
     Board board(5);
     Client client("127.0.0.1", 8000, board);
     RemotePlayer player (&client,board);
-     client.sendExercise(1,5);
+     client.sendMove(1,5);
     EXPECT_EQ(1, player.readMove().getRow());
     EXPECT_EQ(2, player.readMove().getCol());
 
