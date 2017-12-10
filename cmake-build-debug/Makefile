@@ -477,6 +477,33 @@ Tests/main_test.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/Tests/main_test.cpp.s
 .PHONY : Tests/main_test.cpp.s
 
+main1.o: main1.cpp.o
+
+.PHONY : main1.o
+
+# target to build an object file
+main1.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/main1.cpp.o
+.PHONY : main1.cpp.o
+
+main1.i: main1.cpp.i
+
+.PHONY : main1.i
+
+# target to preprocess a source file
+main1.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/main1.cpp.i
+.PHONY : main1.cpp.i
+
+main1.s: main1.cpp.s
+
+.PHONY : main1.s
+
+# target to generate assembly for a file
+main1.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/main1.cpp.s
+.PHONY : main1.cpp.s
+
 src/Board.o: src/Board.cpp.o
 
 .PHONY : src/Board.o
@@ -819,6 +846,9 @@ help:
 	@echo "... Tests/main_test.o"
 	@echo "... Tests/main_test.i"
 	@echo "... Tests/main_test.s"
+	@echo "... main1.o"
+	@echo "... main1.i"
+	@echo "... main1.s"
 	@echo "... src/Board.o"
 	@echo "... src/Board.i"
 	@echo "... src/Board.s"

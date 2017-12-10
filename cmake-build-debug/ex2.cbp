@@ -413,6 +413,9 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/Tests/main_test.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/cmake-build-debug/main1.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/lib/googletest-master/googlemock/src/gmock-all.cc">
 			<Option target="gmock_main"/>
 			<Option target="gmock"/>
