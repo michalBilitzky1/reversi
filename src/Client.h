@@ -4,6 +4,7 @@
 
 #include "Steps.h"
 #include "Player.h"
+#include "DisplayScreen.h"
 
 class Client {
 private:
@@ -11,6 +12,7 @@ private:
     int serverPort;
     int clientSocket;
     Board* board;
+    DisplayScreen image;
 public:
     /**********************************
         * constructor
@@ -18,7 +20,7 @@ public:
         * input: serverip,serverport,board
         * output: none
     **********************************/
-    Client(const char *serverIp,int serverPort,Board &board);
+    Client(const char *serverIp,int serverPort,Board &board,DisplayScreen image);
 
     /****************************************
        * name: connectToServer
@@ -66,7 +68,7 @@ public:
         * output: player(x/o)
     **********************************/
     char getPlayer(char player);
-
+    void sendCommand();
 };
 
 

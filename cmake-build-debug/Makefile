@@ -558,6 +558,33 @@ src/Client.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/Client.cpp.s
 .PHONY : src/Client.cpp.s
 
+src/DisplayScreen.o: src/DisplayScreen.cpp.o
+
+.PHONY : src/DisplayScreen.o
+
+# target to build an object file
+src/DisplayScreen.cpp.o:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/DisplayScreen.cpp.o
+.PHONY : src/DisplayScreen.cpp.o
+
+src/DisplayScreen.i: src/DisplayScreen.cpp.i
+
+.PHONY : src/DisplayScreen.i
+
+# target to preprocess a source file
+src/DisplayScreen.cpp.i:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/DisplayScreen.cpp.i
+.PHONY : src/DisplayScreen.cpp.i
+
+src/DisplayScreen.s: src/DisplayScreen.cpp.s
+
+.PHONY : src/DisplayScreen.s
+
+# target to generate assembly for a file
+src/DisplayScreen.cpp.s:
+	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/DisplayScreen.cpp.s
+.PHONY : src/DisplayScreen.cpp.s
+
 src/Game.o: src/Game.cpp.o
 
 .PHONY : src/Game.o
@@ -774,33 +801,6 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/noUse.o: src/noUse.cpp.o
-
-.PHONY : src/noUse.o
-
-# target to build an object file
-src/noUse.cpp.o:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/noUse.cpp.o
-.PHONY : src/noUse.cpp.o
-
-src/noUse.i: src/noUse.cpp.i
-
-.PHONY : src/noUse.i
-
-# target to preprocess a source file
-src/noUse.cpp.i:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/noUse.cpp.i
-.PHONY : src/noUse.cpp.i
-
-src/noUse.s: src/noUse.cpp.s
-
-.PHONY : src/noUse.s
-
-# target to generate assembly for a file
-src/noUse.cpp.s:
-	$(MAKE) -f CMakeFiles/ReversiTest.dir/build.make CMakeFiles/ReversiTest.dir/src/noUse.cpp.s
-.PHONY : src/noUse.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -855,6 +855,9 @@ help:
 	@echo "... src/Client.o"
 	@echo "... src/Client.i"
 	@echo "... src/Client.s"
+	@echo "... src/DisplayScreen.o"
+	@echo "... src/DisplayScreen.i"
+	@echo "... src/DisplayScreen.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"
@@ -879,9 +882,6 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/noUse.o"
-	@echo "... src/noUse.i"
-	@echo "... src/noUse.s"
 .PHONY : help
 
 

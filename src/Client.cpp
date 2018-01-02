@@ -9,11 +9,11 @@
 
 using namespace std;
 
-Client::Client(const char *serverIP, int serverPort,Board &board):board(&board),
-                                                                  serverIP(serverIP),
-                                                                  serverPort(serverPort),
-                                                                  clientSocket(0){
-    cout <<"Client"<<endl;
+Client::Client(const char *serverIP, int serverPort,Board &board,DisplayScreen image):board(&board),
+                                                                                      serverIP(serverIP),
+                                                                                      serverPort(serverPort),
+                                                                                      clientSocket(0),image(board){
+
 }
 
 
@@ -50,7 +50,7 @@ void Client::connectToServer() {
     if (connect(clientSocket, (struct sockaddr *) &serverAddress, sizeof(serverAddress)) == -1) {
         throw "Error connecting to server";
     }
-    cout << "Connected to server" << endl;
+    image.clientConnected();
 
 }
 
@@ -67,17 +67,60 @@ void Client::sendMove(int row, int col){
 }
 
 
+void Client::sendCommand(){
+    string command;
+    char nameOfGame[20];
+    int opt;
+    cin>>opt;
+    cout<<opt;
+    if(opt==1) {
+        command = "start ";
+    }
+    else if (opt==2) {
+        command ="join ";
+    }
+    else if(opt==3) {
+        command = "list_games";
+    }
+    else {
+        cout<<"Error choosing command"<<endl;
+        cout<<"Please enter new option"<<endl;
+        cin>>opt;
+    }
+    if(opt==1 || opt==2) {
+        DisplayScreen displayScreen(*this->board);
+        displayScreen.nameOfGame();
+        cin>>nameOfGame;
+        command.append(nameOfGame);
+    }
+    int n = write(clientSocket ,command.c_str(),command.length()+1);
+    if(n ==-1){
+        throw "Error writing row to socket";
+    }
+    /*if(opt==1 || opt==2){
+        for(int i=0;i<strlen(nameOfGame);i++) {
+            int n = write(clientSocket, &nameOfGame[i], sizeof(nameOfGame));
+            if (n == -1) {
+                throw "Error writing row to socket";
+            }
+        }
+    }*/
+}
+
+
 Piece Client::clientMove(Client client) {
     int num1, num2;
     char op;
+    int flag=0;
     try{
-        cout << "Enter an move (x,y):";
+        image.clientChoosesMove(num1,num2,op,flag);
         cin >> num1 >> op >> num2;
-        cout << "Sending choice: " << num1 << op << num2 << endl;
+        flag = 1;
+        image.clientChoosesMove(num1,num2,op,flag);
         client.sendMove(num1, num2);
     }
     catch (const char *msg) {
-        cout << "Failed to send exercise to server. Reason: " << msg << endl;
+        image.errorMessages("client",msg);
     }
     Piece piece(num1,num2);
     return piece;

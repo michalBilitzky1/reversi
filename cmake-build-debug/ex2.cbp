@@ -443,6 +443,12 @@
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Client.h">
 			<Option target="ReversiTest"/>
 		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/DisplayScreen.cpp">
+			<Option target="ReversiTest"/>
+		</Unit>
+		<Unit filename="/home/michalbi/CLionProjects/ex2/src/DisplayScreen.h">
+			<Option target="ReversiTest"/>
+		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/Game.cpp">
 			<Option target="ReversiTest"/>
 		</Unit>
@@ -492,12 +498,6 @@
 			<Option target="ReversiTest"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/src/main.cpp">
-			<Option target="ReversiTest"/>
-		</Unit>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/src/noUse.cpp">
-			<Option target="ReversiTest"/>
-		</Unit>
-		<Unit filename="/home/michalbi/CLionProjects/ex2/src/noUse.h">
 			<Option target="ReversiTest"/>
 		</Unit>
 		<Unit filename="/home/michalbi/CLionProjects/ex2/CMakeLists.txt">
